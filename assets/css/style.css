@@ -1,17 +1,20 @@
 body {
     min-height: 100vh;
     background-image: url(../images/leaves.jpg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: cover;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .heading {
- align-items: center; 
- justify-content: center;
- display: flex;  
- height: 15vh;
- color: #ffffff;
+    width: 20%;
+    font-size: 5rem;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: #ffffff;
+    border: 8px dotted #ffffff;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
