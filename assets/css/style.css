@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    background-image: url(../images/leaves.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading {
+ align-items: center; 
+ justify-content: center;
+ display: flex;  
+ height: 15vh;
+ color: #ffffff;
+}
