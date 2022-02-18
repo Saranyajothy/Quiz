@@ -68,3 +68,7 @@ body {
     border: 6px inset #283618;
     box-sizing: border-box;
 }
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
