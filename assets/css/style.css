@@ -13,7 +13,7 @@ body {
     justify-items: center;
     color: rgb(219, 215, 215);
    
-    border: 6px dotted #ffffff;
+    border: 6px dotted rgb(219, 215, 215) ;
     box-sizing: border-box;
     padding: 3px;
     margin-top: 30px;
@@ -33,5 +33,12 @@ body {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-   
+}
+.flex-column {
+    display: flex;
+    flex-direction: columnxs;
+}
+.flex-column {
+    justify-content: center;
+    align-items: center;
 }
