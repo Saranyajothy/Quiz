@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0%;
 }
-.h_img img {
+.h_img {
     width: 100%;
     min-height: 100vh;
+    position: relative;
 }
+.anatomy {
+  position: absolute;
+  bottom: 50px;
+
+}
+
     
     
