@@ -1,13 +1,51 @@
-*{
-    margin: 0;
-    padding: 0%;
-}
-.h_img {
+.bg2 img {
     width: 100%;
-    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.container {
+    width: 50%;
+    font-size: 2rem;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: rgb(219, 215, 215);
    
+   
+    box-sizing: border-box;
+    padding: 3px;
+    margin: 30px auto 0px auto;
+    display: block;
+    position: relative;
 }
 
+.choice-container {
+    margin-bottom: 0.8rem;
+    width: 50%;
+    border-radius: 4px;
+    background: rgb(80, 205, 255);
+    font-size: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
 
-    
-    
