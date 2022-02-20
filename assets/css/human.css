@@ -5,13 +5,9 @@
 .h_img {
     width: 100%;
     min-height: 100vh;
-    position: relative;
+   
 }
-.anatomy {
-  position: absolute;
-  bottom: 50px;
 
-}
 
     
     
