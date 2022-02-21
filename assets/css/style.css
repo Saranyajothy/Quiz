@@ -9,7 +9,7 @@
 
 .heading {
     width: 50%;
-    font-size: 8rem;
+    font-size: 6rem;
     font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;
@@ -31,7 +31,7 @@
     justify-items: center;
     color: rgb(219, 215, 215);
     font-size: 25px;
-    padding: 6px;
+    padding: 40px 0 10px 0;
 
     width: 50%;
     margin-right: auto;

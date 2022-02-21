@@ -1,55 +1,71 @@
+*{
+    margin: auto 0%;
+    padding: 0;
+}
 .bg2 img {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
+    margin-top: 0%;
     position: absolute;
 }
 .container {
     width: 50%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
     color: rgb(219, 215, 215);
-   
    
     box-sizing: border-box;
     padding: 3px;
     margin: 30px auto 0px auto;
-    display: block;
+  
     position: relative;
 }
 
 .choice-container {
     color: black;
-    width: 50%;
+    width: 80%;
     background: whitesmoke;
     font-size: 1rem;
-    background-size: 15px;
+    background-size: 10px;
     margin-right: auto;
     margin-left: auto;
+    padding: 4px 0%;
+    margin-bottom: 1rem;
+    
+    box-sizing: border-box;
     position: relative;
 }
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
     background-color: rgb(3, 204, 204);
-}
+} 
 #questions {
     font-size: 40px;
-}
-.flex-column {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 .choice-text {
-    padding-left: 5px;
-    width: 100%;
+    padding-left: 10px;
+    width: 50%;
     font-size: 30px;
     font-weight: 100;
     text-align: start;
+}
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-main-text {
+   text-align: right;
+}
+.hud-item h1 {
+    font-size: 50px;
+}
+.hud-item {
+    margin-right: auto;
+    margin-left: auto;
 }
 .correct {
     background: green;
@@ -57,19 +73,12 @@
 .incorrect {
     background: red;
 }
-.hud-prefix {
-    display: flex;
-    margin-right: auto;
-}
-.hud-main-text p h1{
-    display: flex;
-    margin-left: auto;
-}
+
 #progressBar {
     width: 15rem;
-    height: 2rem;
+    height: 1rem;
     border: 0.2rem solid rgb(11,223,36);
-    margin-top: 20px;
+    margin-top: 0px;
     border-radius: 50px;
     overflow: hidden;
 }
