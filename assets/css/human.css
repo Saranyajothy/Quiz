@@ -41,24 +41,31 @@
     transform: scale(1.05);
     background-color: rgb(3, 204, 204);
 } 
-#questions {
-    font-size: 40px;
+#question {
+    font-size: 30px;
     text-align: center;
+    margin-top: 45px;
 }
 .choice-text {
     padding-left: 10px;
     width: 50%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
     text-align: start;
 }
+
 #hud {
     display: flex;
     justify-content: space-between;
+    font-size: 40px;
+    margin-top: 30px;
 }
 
-.hud-main-text {
-   text-align: right;
+.hud-score {
+   margin-top: 25px;
+}
+.hud-score-no {
+   text-align: center;
 }
 .hud-item h1 {
     font-size: 50px;
@@ -78,9 +85,10 @@
     width: 15rem;
     height: 1rem;
     border: 0.2rem solid rgb(11,223,36);
-    margin-top: 0px;
+    margin-top: 10px;
     border-radius: 50px;
     overflow: hidden;
+    
 }
 #progressBarFull {
     height: 100%;
