@@ -15,76 +15,54 @@
 <body>
     <div class="bg2">
        <img src="assets/images/human.jpg" alt="">
+       <button id="btn category-close"
+       class="btn-close">x</button>
        <div class="container">
            <div id-="game" class="justify-center flex-column">
-                <!-- <div id="hud">
-                    <div class="hud-item">
-                        <p class="hud-prefix">
-                        Question 
-                        </p>
+                <div id="quiz" class="row">
+                    <div class="col-6">
+                        <div>
+                            <p class="quiz-prefix">
+                                Question 
+                            </p>
+                        </div>
                         <div id="progressBar">
                             <div id="progressBarFull">
                             </div>
                         </div>
-                
-                        <div class="hud-item">
-                            <p class="hud-main-text">
+                    </div>
+                    <div class="col-6 score">
+                        <div>
+                            <p class="quiz-score">
                                 score
                             </p>
-                            <h1 class="hud-main-text">
+                        </div>
+                        <div>
+                            <p class="quiz-score-no">
                                 0
-                            </h1>
-                        </div>        -->
-                        <div id="quiz" class="row">
-                            <div class="col-6">
-                                <div>
-                                    <p class="quiz-prefix">
-                                        Question 
-                                    </p>
-                                </div>
-                                <div id="progressBar">
-                                    <div id="progressBarFull">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 score">
-                                <div>
-                                    <p class="quiz-score">
-                                        score
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="quiz-score-no">
-                                        0
-                                    </p>
-                                </div>
-                            </div>
+                            </p>
                         </div>
-                                <h1 id="question">What is the answer to this Question?</h1>
-                                    <div class="choice-container">
-                                        
-                                        <p class="choice-text" data-number="1">A. choice</p>
-                                    </div>
-                                    <div class="choice-container">
-                                       
-                                        <p class="choice-text" data-number="2">B. choice</p>
-                                    </div>
-                                    <div class="choice-container">
-                                        
-                                        <p class="choice-text" data-number="3">C. choice</p>
-                                    </div>
-                                    <div class="choice-container">
-                                        
-                                        <p class="choice-text" data-number="4">D. choice</p>       
-                                    </div>
-                                </div>    
-                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 id="question">What is the answer to this Question?</h1>
+                    <div class="choice-container">
+                        <p class="choice-text" data-number="1">A. choice</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-text" data-number="2">B. choice</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-text" data-number="3">C. choice</p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-text" data-number="4">D. choice</p>       
                     </div>
                 </div>
             </div>  
         </div>
     </div>
-    <script src ="assets/js"></script>
+    <script src ="assets/js/human.js"></script>
      
 
 </body>
