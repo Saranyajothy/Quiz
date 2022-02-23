@@ -3,10 +3,10 @@
     padding: 0;
 }
 .bg2 img {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-size: cover;
-    margin-top: 0%;
+    margin: auto 0%;
     position: absolute;
 }
 .container {
@@ -44,7 +44,7 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 .choice-text {
     padding-left: 10px;

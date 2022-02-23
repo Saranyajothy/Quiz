@@ -3,7 +3,7 @@
     padding: 0;
 }
 .bg2 img {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-size: cover;
     margin-top: 0%;
@@ -58,7 +58,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 40px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .quiz-score {
