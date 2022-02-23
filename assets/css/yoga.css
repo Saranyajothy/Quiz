@@ -1,0 +1,95 @@
+*{
+    margin: auto 0%;
+    padding: 0;
+}
+.bg2 img {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: 0%;
+    position: absolute;
+}
+.container {
+    width: 50%;
+    font-size: 2rem;
+    font-family: 'Shizuru', cursive;
+    color: rgb(219, 215, 215);
+   
+    box-sizing: border-box;
+    padding: 3px;
+    margin: 30px auto 0px auto;
+  
+    position: relative;
+}
+
+.choice-container {
+    color: black;
+    width: 80%;
+    background: whitesmoke;
+    font-size: 1rem;
+    background-size: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4px 0%;
+    margin-bottom: 1rem;
+    
+    box-sizing: border-box;
+    position: relative;
+}
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(218, 80, 146);
+} 
+#question {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 45px;
+}
+.choice-text {
+    padding-left: 10px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: start;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.hud-score {
+   margin-top: 25px;
+}
+.hud-score-no {
+   text-align: center;
+}
+.hud-item h1 {
+    font-size: 50px;
+}
+.hud-item {
+    margin-right: auto;
+    margin-left: auto;
+}
+.correct {
+    background: green;
+}
+.incorrect {
+    background: red;
+}
+
+#progressBar {
+    width: 15rem;
+    height: 1rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    
+}
+#progressBarFull {
+    height: 100%;
+}
