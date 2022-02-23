@@ -54,25 +54,18 @@
     text-align: start;
 }
 
-#hud {
+#quiz {
     display: flex;
     justify-content: space-between;
     font-size: 40px;
     margin-top: 30px;
 }
 
-.hud-score {
+.quiz-score {
    margin-top: 25px;
 }
-.hud-score-no {
+.quiz-score-no {
    text-align: center;
-}
-.hud-item h1 {
-    font-size: 50px;
-}
-.hud-item {
-    margin-right: auto;
-    margin-left: auto;
 }
 .correct {
     background: green;
