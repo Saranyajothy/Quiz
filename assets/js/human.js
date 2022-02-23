@@ -53,8 +53,8 @@ let questions =[
         answer: 1, 
     },
 ]
-const SCORE_POINTS = 10
-const MAX_QUESTIONS = 5
+const score_points = 10
+const max_questions = 5
 
 startGame = () => {
     questionCounter = 0
@@ -64,15 +64,15 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > MAX-QUESTIONS) {
+    if(availableQuestions.length === 0 || questionCounter > max_questions) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('/end.html')
     }
 
 questionCounter++ 
-progressText.innerText = `Question ${questionCounter} of ${MAX-QUESTIONS}`
-progressBarFull.style.width = `${(questionCounter/MAX-QUESTIONS) * 100}%`
+progressText.innerText = `Question ${questionCounter} of ${max_questions}`
+progressBarFull.style.width = `${(questionCounter/max_questions) * 100}%`
 
 const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
 currentQuestion = availableQuestions[questionsIndex]
@@ -99,7 +99,7 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'  
           
         if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(score_points)
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
