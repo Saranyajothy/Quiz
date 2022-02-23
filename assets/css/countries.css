@@ -47,11 +47,9 @@
     margin-top: 45px;
 }
 .choice-text {
-    padding-left: 10px;
-    width: 50%;
     font-size: 25px;
     font-weight: 100;
-    text-align: start;
+    text-align: center;
 }
 #quiz {
     display: flex;

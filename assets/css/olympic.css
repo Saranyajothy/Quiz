@@ -61,8 +61,13 @@
     font-size: 40px;
     margin-top: 50px;
 }
+.quiz-prefix {
+    
+}
+
 .quiz-score {
    margin-top: 25px;
+   background-color: aliceblue;
 }
 .quiz-score-no {
    text-align: center;

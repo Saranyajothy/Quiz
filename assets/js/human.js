@@ -1,5 +1,5 @@
 const question = document.querySelector('#question');
-const choices = document.querySelector('.choice-text');
+const choices =Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
@@ -7,54 +7,54 @@ const progressBarFull = document.querySelector('#progressBarFull');
 let currentQuetion = {}
 let acceptingAnswers = true
 let score = 0
-let questionCounter = [] 
+let questionCounter = 0 
+let availableQuestions = []
 
 let questions =[
     {
-    question: 'Where in the body does most of digestion take place?',
-    Achoice: 'Small Intestine',
-    Bchoice: 'Stomach',
-    CChoice: 'Mouth',
-    DChoice: 'Large Intestine',
-    answer: A, 
+        question: "Where in the body does most of digestion take place?",
+        choice1: "Small Intestine",
+        choice: "Stomach",
+        choice: "Mouth",
+        choice: "Large Intestine",
+        answer: 1, 
+        },
+{
+        question: "Where in the body are new blood cells made?",
+        choice1: "Liver",
+        choice2: "Brain",
+        choice3: "Bones",
+        choice4: "Heart",
+        answer: 2, 
     },
 
     {
-        question: 'Where in the body are new blood cells made?',
-        Achoice: 'Liver',
-        Bchoice: 'Brain',
-        Cchoice: 'Bones',
-        Dchoice: 'Heart',
-        answer: B, 
-    },
-
-    {
-        question: 'Which type of joint is your thumb joint?',
-        Achoice: 'Hinge',
-        Bchoice: 'Saddle',
-        Cchoice: 'Glide',
-        Dchoice: 'Ball and socket',
-        answer: B, 
+        question: "Which type of joint is your thumb joint?",
+        choice1: "Hinge",
+        choice2: "Saddle",
+        choice3: "Glide",
+        choice4: "Ball and socket",
+        answer: 2, 
     },
     {
-        question: 'What is the heaviest organ in the human body?',
-        Achoice: 'Kidney',
-        Bchoice: 'Brain',
-        Cchoice: 'Liver',
-        Dchoice: 'Skin',
-        answer: D, 
+        question: "What is the heaviest organ in the human body?",
+        choice1: "Kidney",
+        choice2: "Brain",
+        choice3: "Liver",
+        choice4: "Skin",
+        answer: 4, 
     },
     {
-        question: 'What is the longest bone in the Human body?',
-        Achoice: 'Thigh bone',
-        Bchoice: 'Collarbone',
-        Cchoice: 'Spine',
-        Dchoice: 'Shinbone',
-        answer: A, 
+        question: "What is the longest bone in the Human body?",
+        choice1: "Thigh bone",
+        choice2: "Collarbone",
+        choice3: "Spine",
+        choice4: "Shinbone",
+        answer: 1, 
     },
 ]
-const score_point = 100
-const max_questions = 5
+const SCORE_POINTS = 10
+const MAX_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
@@ -64,18 +64,18 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > max_questions) {
+    if(availableQuestions.length === 0 || questionCounter > MAX-QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
+
         return window.location.assign('/end.html')
     }
-}
 
 questionCounter++ 
-progressText.innerText = `Question ${questionCounter} of ${max-questions}`
-progressBarFull.style.width = `${(questionCounter/max_questions) * 100}%`
+progressText.innerText = `Question ${questionCounter} of ${MAX-QUESTIONS}`
+progressBarFull.style.width = `${(questionCounter/MAX-QUESTIONS) * 100}%`
 
-constquestionIndex = Math.floor(Math.random() * availableQuestions.length)
-currentQuestion = availableQuestions[questionIndex]
+const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+currentQuestion = availableQuestions[questionsIndex]
 question.innerText = currentQuestion.question
 
 choices.forEach(choice => {
@@ -86,6 +86,7 @@ choices.forEach(choice => {
 availableQuestions.splice(questionsIndex, 1)
 
 acceptingAnswers = true
+}
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -98,13 +99,14 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'  
           
         if(classToApply === 'correct') {
-            incrementScore(score_point)
+            incrementScore(SCORE_POINTS)
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
 
-        setTimeout(() =>{
+        setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
         }, 100)
     })
 
@@ -114,4 +116,3 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
-startGame()

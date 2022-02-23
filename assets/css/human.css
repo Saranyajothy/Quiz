@@ -41,17 +41,18 @@
     transform: scale(1.05);
     background-color: rgb(3, 204, 204);
 } 
+.choice-prefix {
+    text-align: center;
+}
 #question {
     font-size: 30px;
     text-align: center;
     margin-top: 45px;
 }
 .choice-text {
-    padding-left: 10px;
-    width: 50%;
     font-size: 25px;
     font-weight: 100;
-    text-align: start;
+    text-align: center;
 }
 
 #quiz {
