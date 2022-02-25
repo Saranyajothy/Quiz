@@ -47,7 +47,8 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin-top: 45px;
+    margin: 45px 0px 5px 0px;
+
 }
 .choice-text {
     font-size: 25px;
@@ -79,12 +80,16 @@
     width: 15rem;
     height: 1rem;
     border: 0.2rem solid rgb(11,223,36);
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 50px;
     overflow: hidden;
     
 }
 #progressBarFull {
     height: 100%;
+}
+
+.btn-home {
+    font-size: 50px;
 }
 
