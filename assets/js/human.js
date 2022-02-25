@@ -72,6 +72,7 @@ getNewQuestion = () => {
         return window.location.assign('/end.html')
     }
 
+    
 // questionCounter++ 
 // progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS }`
 // progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS ) * 100}%`
@@ -89,6 +90,24 @@ getNewQuestion = () => {
 
 // acceptingAnswers = true
 // }
+
+questionCounter++ 
+progressText.innerText = `Question ${questionCounter} of ${MAXIMUM_QUESTIONS}`
+progressBarFull.style.width = `${(questionCounter/MAXIMUM_QUESTIONS) * 100}%`
+
+const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+currentQuestion = availableQuestions[questionsIndex]
+question.innerText = currentQuestion.question
+
+choices.forEach(choice => {
+    const number = choice.dataset['number']
+    choice.innerText = currentQuestion['choice' + number]
+})
+
+availableQuestions.splice(questionsIndex, 1)
+
+acceptingAnswers = true
+}
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -114,23 +133,6 @@ choices.forEach(choice => {
     })
 
 })
-questionCounter++ 
-progressText.innerText = `Question ${questionCounter} of ${MAXIMUM_QUESTIONS}`
-progressBarFull.style.width = `${(questionCounter/MAXIMUM_QUESTIONS) * 100}%`
-
-const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-currentQuestion = availableQuestions[questionsIndex]
-question.innerText = currentQuestion.question
-
-choices.forEach(choice => {
-    const number = choice.dataset['number']
-    choice.innerText = currentQuestion['choice' + number]
-})
-
-availableQuestions.splice(questionsIndex, 1)
-
-acceptingAnswers = true
-}
 
 incrementScore = num => {
     score +=num
