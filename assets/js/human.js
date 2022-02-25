@@ -1,8 +1,8 @@
-const question = document.querySelector('#question');
+const question = document.getElementById('question');
 const choices =Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.querySelector('#progressText');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
+const progressText = document.getElementById('progressText');
+const scoreText = document.getElementById('score');
+const progressBarFull = document.getElementById('progressBarFull');
 
 // console.log('hello');
 let currentQuestion = {}
@@ -54,6 +54,7 @@ let questions =[
         answer: 1, 
     },
 ]
+// questions and score
 const SCORE_POINTS = 10
 const MAX_QUESTIONS = 5
 
@@ -118,3 +119,4 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
+startGame()

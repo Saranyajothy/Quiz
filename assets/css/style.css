@@ -32,7 +32,7 @@
     justify-items: center;
     color: rgb(219, 215, 215);
     font-size: 25px;
-    padding: 40px 0 10px 0;
+    padding: 45px 0 5px 0;
 
     width: 50%;
     margin-right: auto;
@@ -60,7 +60,7 @@
 .btn {
     font-size: 2rem;
     font-family: 'Gideon Roman', cursive;
-    padding: 4px 0%;
+    padding: 3px 0%;
     width: 30rem;
     justify-content: center;
     align-items: center;
@@ -78,3 +78,156 @@
     background: rgb(241, 243, 113);
     color: black;
 }
+
+
+/* media query */
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+ 
+.heading {
+    width: 50%;
+    font-size: 5rem;
+    font-family: 'Shizuru', cursive;
+    padding: 3px;
+    margin: 5px auto 0px auto;
+
+}
+
+.content {
+    font-family: 'Gideon Roman', cursive;
+    font-size: 20px;
+    padding: 35px 0 5px 0;
+}
+.btn {
+    font-size: 1.5rem;
+    font-family: 'Gideon Roman', cursive;
+    padding: 2px 0%;
+    width: 30rem;
+    margin-bottom: 0.5rem;
+}
+
+}
+
+/* media query */
+/* For larger to medium screens size from 1060px wide and down */
+@media screen and (max-width: 1050px) {
+
+    .heading {
+        width: 50%;
+        font-size: 5rem;
+        font-family: 'Shizuru', cursive;
+        padding: 3px;
+        margin: 5px auto 0px auto;
+    
+    }
+    
+    .content {
+        font-family: 'Gideon Roman', cursive;
+        font-size: 20px;
+        padding: 20px 0 10px 0;
+    }
+    .btn {
+        font-size: 1rem;
+        font-family: 'Gideon Roman', cursive;
+        padding: 2px 0%;
+        width: 25rem;
+        margin-bottom: 0.5rem;
+        font-weight: 100px;
+    }
+    
+    
+}    
+/* media query
+/* For larger to medium screens size from 750px wide and down */ 
+@media screen and (max-width: 750px) {
+
+    .heading {
+        width: 50%;
+        font-size: 3rem;
+        font-family: 'Shizuru', cursive;
+        padding: 15px;
+        margin-top: 20px;
+    
+    }
+    
+    .content {
+        font-family: 'Gideon Roman', cursive;
+        font-size: 15px;
+        padding: 28px 0 2px 0;
+
+    }
+    .btn {
+        font-size: 1.2rem;
+        font-family: 'Gideon Roman', cursive;
+        padding: 3px 0%;
+        width: 20rem;
+        margin-bottom: 0.5rem;
+       margin-left: 22px;
+    }
+
+    
+} 
+
+/* media query
+/* For larger to medium screens size from 470px wide and down */ 
+@media screen and (max-width: 470px) {
+
+    .heading {
+        width: 50%;
+        font-size: 3rem;
+        font-family: 'Shizuru', cursive;
+        padding: 15px;
+        margin-top: 20px;
+    
+    }
+    
+    .content {
+        font-family: 'Gideon Roman', cursive;
+        font-size: 15px;
+        padding: 25px 0 2px 0;
+
+    }
+    .btn {
+        font-size: 1.2rem;
+        font-family: 'Gideon Roman', cursive;
+        padding: 3px 0%;
+        width: 10rem;
+        margin-bottom: 0.5rem;
+       margin-left: 22px;
+    }
+
+    
+} 
+ 
+/* media query
+/* For larger to medium screens size from 360px wide and down */ 
+@media screen and (max-width: 360px) {
+
+    .heading {
+        width: 50%;
+        font-size: 3rem;
+        font-family: 'Shizuru', cursive;
+        padding: 15px;
+        margin-top: 20px;
+    
+    }
+    
+    .content {
+        font-family: 'Gideon Roman', cursive;
+        font-size: 12px;
+        padding: 30px 0 2px 0;
+
+    }
+    .btn {
+        font-size: 1.2rem;
+        font-family: 'Gideon Roman', cursive;
+        padding: 3px 0%;
+        width: 10rem;
+        margin-bottom: 0.5rem;
+       margin-left: 22px;
+    }
+
+    
+} 
+ 
