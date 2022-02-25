@@ -15,18 +15,18 @@ let questions =[
     {
         question: "Where in the body does most of digestion take place?",
         choice1: "Small Intestine",
-        choice: "Stomach",
-        choice: "Mouth",
-        choice: "Large Intestine",
+        choice2: "Stomach",
+        choice3: "Mouth",
+        choice4: "Large Intestine",
         answer: 1, 
         },
 {
         question: "Where in the body are new blood cells made?",
         choice1: "Liver",
         choice2: "Brain",
-        choice3: "Bones",
+        choice3: "Bone marrow",
         choice4: "Heart",
-        answer: 2, 
+        answer: 3, 
     },
 
     {
@@ -55,7 +55,7 @@ let questions =[
     },
 ]
 // questions and score
-const SCORE_POINTS = 10
+const SCORE_BONUS = 10
 const MAX_QUESTIONS = 5
 
 startGame = () => {
@@ -93,23 +93,24 @@ acceptingAnswers = true
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
-        acceptingAnswers = false
 
+        acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'  
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 
+        'incorrect'  
           
         if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_BONUS)
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
-        }, 100)
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
     })
 
 })
@@ -119,4 +120,4 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-startGame()
+startGame();
