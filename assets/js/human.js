@@ -1,8 +1,8 @@
 const question = document.getElementById('question');
-const choices =Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
+const choices =Array.from(document.querySelectorAll('.choice-text'));
+const progressText = document.getElementById('progressText');
 
 // console.log('hello');
 let currentQuestion = {}
@@ -56,7 +56,7 @@ let questions =[
 ]
 // questions and score
 const SCORE_BONUS = 10
-const MAX_QUESTIONS = 5
+const MAXIMUM_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
@@ -66,29 +66,29 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS ) {
+    if(availableQuestions.length === 0 || questionCounter > MAXIMUM_QUESTIONS ) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('/end.html')
     }
 
-questionCounter++ 
-progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS }`
-progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS ) * 100}%`
+// questionCounter++ 
+// progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS }`
+// progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS ) * 100}%`
 
-const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-currentQuestion = availableQuestions[questionsIndex]
-question.innerText = currentQuestion.question
+// const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+// currentQuestion = availableQuestions[questionsIndex]
+// question.innerText = currentQuestion.question
 
-choices.forEach(choice => {
-    const number = choice.dataset['number']
-    choice.innerText = currentQuestion['choice' + number]
-})
+// choices.forEach(choice => {
+//     const number = choice.dataset['number']
+//     choice.innerText = currentQuestion['choice' + number]
+// })
 
-availableQuestions.splice(questionsIndex, 1)
+// availableQuestions.splice(questionsIndex, 1)
 
-acceptingAnswers = true
-}
+// acceptingAnswers = true
+// }
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -114,10 +114,57 @@ choices.forEach(choice => {
     })
 
 })
+questionCounter++ 
+progressText.innerText = `Question ${questionCounter} of ${MAXIMUM_QUESTIONS}`
+progressBarFull.style.width = `${(questionCounter/MAXIMUM_QUESTIONS) * 100}%`
+
+const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+currentQuestion = availableQuestions[questionsIndex]
+question.innerText = currentQuestion.question
+
+choices.forEach(choice => {
+    const number = choice.dataset['number']
+    choice.innerText = currentQuestion['choice' + number]
+})
+
+availableQuestions.splice(questionsIndex, 1)
+
+acceptingAnswers = true
+}
 
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
+// function optionSelected(answer)
+//     clearInterval(counter);
+//     clearInterval(counterLine);
+//     let userAnswer = answer.textContent;
+//     let correcAnswer =question[que_count].answer;
+//     const allOptions = option_list.children.lenght;
+
+//     if(userAnswer ==correcAnswer) {
+//         userScore += 1;
+//         answer.classList.add("correct");
+//         answer.insertAdjacentHTML("beforeend")
+//         console.log("Correct Answer");
+//         console.log("Your correct answer = " +userScore);
+//     }else {
+//         answer.classList.add("correct");
+//         answer.insertAdjacentHTML("beforeend")
+//         console.log("Wrong Answer");
+
+//         for(i=0; i < allOptions; i++){
+//             if(option_list.children[i].textContent == correctAnswer) {
+//                 option_list.children[i].setAttribute("class", "option correct");
+//                 option_list.children[i].insertAdjacentHTML("beforeend")
+
+//                 console.log("Auto selected correct answer.");
+//             }
+//         }
+
+       
+
 
 startGame();

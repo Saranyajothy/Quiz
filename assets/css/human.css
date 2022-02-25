@@ -10,13 +10,13 @@
     position: absolute;
 }
 .container {
-    width: 50%;
+    width: 60%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
     color: rgb(219, 215, 215);
    
     box-sizing: border-box;
-    padding: 3px;
+    padding: 2px;
     margin: 30px auto 0px auto;
   
     position: relative;
@@ -47,7 +47,7 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin: 45px 0px 5px 0px;
+    margin: 45px 0px 15px 0px;
 
 }
 .choice-text {
@@ -110,7 +110,7 @@
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#ffffff,rgb(3, 204, 204)) 0.3%;
+    background: linear-gradient(#ffffff, rgb(189, 189, 7)) 0.3%;
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
