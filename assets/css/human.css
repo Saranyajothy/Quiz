@@ -93,3 +93,32 @@
     font-size: 50px;
 }
 
+.btn {
+    /* font-size: 1.5rem;
+    font-family: 'Gideon Roman', cursive;
+    padding: 3px;
+    width: 50%;
+
+    /* margin-left: 42%;  */
+   /* margin-bottom: 1rem;
+    color: black;
+    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative; */
+
+    width: 50%;
+    font-size: 2rem;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 10px auto;
+    
+}
+
