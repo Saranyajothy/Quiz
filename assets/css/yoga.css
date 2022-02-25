@@ -13,11 +13,11 @@
     width: 50%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
-    color: rgb(219, 215, 215);
+    color: #ffffff;
    
     box-sizing: border-box;
     padding: 3px;
-    margin: 30px auto 0px auto;
+    margin: 20px auto 0px auto;
   
     position: relative;
 }
@@ -25,7 +25,7 @@
 .choice-container {
     color: black;
     width: 80%;
-    background: whitesmoke;
+    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
     font-size: 1rem;
     background-size: 10px;
     margin-right: auto;
@@ -39,12 +39,12 @@
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background-color: rgb(218, 80, 146);
+    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
 } 
 #question {
     font-size: 30px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px 5px;
 }
 .choice-text {
     font-size: 25px;
@@ -82,4 +82,21 @@
 }
 #progressBarFull {
     height: 100%;
+}
+
+.btn {
+    width: 50%;
+    font-size: 2rem;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px auto;
+    
 }

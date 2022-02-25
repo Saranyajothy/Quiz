@@ -3,7 +3,7 @@
     padding: 0;
 }
 .bg2 img {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-size: cover;
     margin-top: 0%;
@@ -13,8 +13,7 @@
     width: 50%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
-    color: crimson;
-    
+    color: rgb(24, 36, 2);
    
     box-sizing: border-box;
     padding: 3px;
@@ -22,11 +21,13 @@
   
     position: relative;
 }
-
+.justify-center {
+    width: 100%;
+}
 .choice-container {
     color: black;
     width: 80%;
-    background: rgb(255, 208, 0);
+    background: whitesmoke;
     font-size: 1rem;
     background-size: 10px;
     margin-right: auto;
@@ -40,34 +41,26 @@
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background-color: rgb(255, 208, 0);
-
+   
 } 
 #question {
     font-size: 30px;
     text-align: center;
-    margin-top: 45px;
+    margin-top: 20px 0px 5px 0px;
 }
 .choice-text {
-    padding-left: 10px;
-    width: 50%;
     font-size: 25px;
     font-weight: 100;
-    text-align: start;
+    text-align: center;
 }
 #quiz {
     display: flex;
     justify-content: space-between;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
-.quiz-prefix {
-    
-}
-
 .quiz-score {
    margin-top: 25px;
-   background-color: aliceblue;
 }
 .quiz-score-no {
    text-align: center;
@@ -79,6 +72,7 @@
 .incorrect {
     background: red;
 }
+
 #progressBar {
     width: 15rem;
     height: 1rem;
@@ -86,7 +80,46 @@
     margin-top: 10px;
     border-radius: 50px;
     overflow: hidden;
+    
 }
 #progressBarFull {
     height: 100%;
+}
+
+.btn {
+    width: 50%;
+    font-size: 2rem;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    background: linear-gradient(#ffffff, rgb(196, 209, 8)) 0.3%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px auto;
+    
+}
+
+/* media query
+/* For larger to medium screens size from 700px wide and down */ 
+@media screen and (max-width: 700px) {
+    #quiz {
+        display: inline-block;
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .quiz-score-no {
+        display: inline-block;
+        font-size: 2rem;
+    
+    }
+
+    #progressBar {
+        width: 10rem;
+    }
+
+    
 }

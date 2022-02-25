@@ -46,7 +46,7 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px 0px 5px 0px;
 }
 .choice-text {
     font-size: 25px;
@@ -82,4 +82,21 @@
 }
 #progressBarFull {
     height: 100%;
+}
+
+.btn {
+    width: 50%;
+    font-size: 2rem;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    background: linear-gradient(#ffffff,red) 0.3%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px auto;
+    
 }
