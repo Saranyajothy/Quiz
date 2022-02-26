@@ -69,7 +69,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAXIMUM_QUESTIONS ) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('end-game.html')
     }
 
     
@@ -117,8 +117,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 
-        'incorrect'  
+        const classToApply = selectedAnswer == currentQuestion.answer? 'correct' : 'incorrect';  
           
         if(classToApply === 'correct') {
             incrementScore(SCORE_BONUS)

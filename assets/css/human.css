@@ -70,7 +70,7 @@
    text-align: center;
 }
 .correct {
-    background: linear-gradient(32deg, rgba(11,223,36) 0% rgb(41,232,111) 100%)
+    background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
 }
 .incorrect {
   background: linear-gradient(32deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);
@@ -110,7 +110,7 @@
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#ffffff, rgb(189, 189, 7)) 0.3%;
+    background: linear-gradient(#d10c68, rgb(189, 189, 7)) 0.3%;
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
