@@ -116,6 +116,18 @@
     text-decoration: none;
     padding: 3px;
     margin: 10px auto;
-    
 }
 
+.btn-position {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+   
+    padding: 3px;
+    margin: 10px auto 0px auto;
+    margin-right: auto;
+    margin-left: auto;
+
+    position: relative;
+}
