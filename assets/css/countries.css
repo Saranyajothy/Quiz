@@ -67,12 +67,17 @@
 }
 
 .correct {
-    background: green;
+    background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
 }
 .incorrect {
-    background: red;
+  background: linear-gradient(32deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);
 }
 
+#progressBarFull {
+    height: 100%;
+    background: rgb(11,223,36);
+    width: 0%;
+}
 #progressBar {
     width: 15rem;
     height: 1rem;
@@ -81,9 +86,6 @@
     border-radius: 50px;
     overflow: hidden;
     
-}
-#progressBarFull {
-    height: 100%;
 }
 
 .btn {
