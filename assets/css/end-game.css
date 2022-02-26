@@ -1,18 +1,62 @@
 .wrap {
     background: linear-gradient( coral 0.3%, orange);
     height: 100vh;
-    align-content: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 .icon {
-    display: block;
+    display: inline-block;
     font-size: 300px;
+    color: rgb(58, 7, 105);
+    margin-top: 5%; 
+
 }
-. {
-    align-content: center;
-    justify-content: center;
-    margin-left: auto;
+
+.position {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+   
     margin-right: auto;
+    margin-left: auto;
+
+    position: relative;
+}
+
+.userscore {
+    font-size: 40px;
+}
+ .appreciation {
+     font-size: 50px 
+}
+
+.btn {
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: 'Shizuru', cursive;
+    color: black;
+    background: linear-gradient(rgb(224, 228, 227), rgb(58, 7, 105)) 0.3%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px auto;
+    
+}
+
+.btn-position {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+   
+    padding: 3px;
+    margin: 10px auto 0px auto;
+    margin-right: auto;
+    margin-left: auto;
+
+    position: relative;
+}
+
+.home-icon {
+    font-size: 20px;
 }
