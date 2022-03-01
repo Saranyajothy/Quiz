@@ -76,6 +76,12 @@
   background: linear-gradient(32deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);
 }
 
+#progressBarFull {
+    height: 100%;
+    background: rgb(11,223,36);
+    width: 0%;
+}
+
 #progressBar {
     width: 15rem;
     height: 1rem;
@@ -93,11 +99,7 @@
     0% { width: 0%; }
     100% { width: 100%; }
 } */
-#progressBarFull {
-    height: 100%;
-    background: rgb(11,223,36);
-    width: 0%;
-}
+
 .btn-home {
     font-size: 50px;
 }

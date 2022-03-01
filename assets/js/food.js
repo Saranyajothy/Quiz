@@ -138,32 +138,6 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-// function optionSelected(answer)
-//     clearInterval(counter);
-//     clearInterval(counterLine);
-//     let userAnswer = answer.textContent;
-//     let correcAnswer =question[que_count].answer;
-//     const allOptions = option_list.children.lenght;
-
-//     if(userAnswer ==correcAnswer) {
-//         userScore += 1;
-//         answer.classList.add("correct");
-//         answer.insertAdjacentHTML("beforeend")
-//         console.log("Correct Answer");
-//         console.log("Your correct answer = " +userScore);
-//     }else {
-//         answer.classList.add("correct");
-//         answer.insertAdjacentHTML("beforeend")
-//         console.log("Wrong Answer");
-
-//         for(i=0; i < allOptions; i++){
-//             if(option_list.children[i].textContent == correctAnswer) {
-//                 option_list.children[i].setAttribute("class", "option correct");
-//                 option_list.children[i].insertAdjacentHTML("beforeend")
-
-//                 console.log("Auto selected correct answer.");
-//             }
-//         }
 
        
 

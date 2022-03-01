@@ -22,11 +22,11 @@
     position: relative;
 }
 
-.userscore {
+.quizScore {
     font-size: 40px;
 }
- .appreciation {
-     font-size: 50px 
+#finalScore {
+     font-size: 40px 
 }
 
 .btn {
