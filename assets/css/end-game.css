@@ -1,4 +1,4 @@
-.wrap {
+.container {
     background: linear-gradient( coral 0.3%, orange);
     height: 100vh;
 }
@@ -10,7 +10,7 @@
 
 }
 
-.position {
+.container {
     width: 50%;
     text-align: center;
     align-items: center;
@@ -21,12 +21,13 @@
 
     position: relative;
 }
+ h1 {
+    margin-bottom: 0%;
+ }
 
-.quizScore {
+#quizScore {
     font-size: 40px;
-}
-#finalScore {
-     font-size: 40px 
+    margin-top: 0%;
 }
 
 .btn {
@@ -55,8 +56,4 @@
     margin-left: auto;
 
     position: relative;
-}
-
-.home-icon {
-    font-size: 20px;
 }

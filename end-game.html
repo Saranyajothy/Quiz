@@ -13,26 +13,45 @@
         <div class="position">
             <i class="fas fa-award icon"></i>
             <h1 class="appreciation">WELL DONE</h1>
-            <p class="userscore"> You've completed the Quiz!!!<br> Your score: <span class="score"></span></p>
-        </div>  -->
+            <h2 class="userScore"> You've completed the Quiz!!!<br> Your score: <span class="score"></span></h2>
+        </div> 
          <div class="result-box">
             <div class="icon"> <i class="fas fa-award icon"></i></div>
-            <div class="complete_text"> you've completed the quiz!</div>
-            <div class="scoreText"></div>
-            <div class="buttons">
-                <button class="restart">Replay quiz</button>
-                <button class="quit">Quit quiz</q></button>
-            </div>
-
-        </div>
+            <div class="accomplish_text"> you've completed the quiz!</div>
+            <div class="scoreText"><span>congrats, You got <p>30</p> out of <p>50</p></span></div>
         <div class="btn-position">
             <a href="index.html" class="btn">Take me to home<i class="fa-solid fa-house home-icon"></i></a>
-       </div>
+       </div> 
 
-    </div> 
+    </div>  -->
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <i class="fas fa-award icon"></i>
+        <h1>WELL DONE <br> You've completed the quiz <br><br> Your score</h1>
+          <h2 id="quizScore"></h2>
+          <!-- <form>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="username"
+            />
+            <button
+              type="submit"
+              class="btn"
+              id="saveScoreBtn"
+              onclick="saveHighScore(event)"
+              disabled
+            >
+              Save
+            </button>
+          </form> -->
+          <a class="btn" href="/human.html">Play Again</a>
+          <a class="btn" href="/">Go Home</a>
+        </div>
+      </div>
 
     <script src="https://kit.fontawesome.com/deb0a1425e.js" crossorigin="anonymous"></script>
-    <script src="human.html"></script>
     <script src="assets/js/end.js"></script>
 </body>
 </html>

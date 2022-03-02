@@ -75,7 +75,7 @@
 .btn:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background: rgb(241, 243, 113);
+    background: linear-gradient( coral 0.3%, orange);
     color: black;
 }
 
