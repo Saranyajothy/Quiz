@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 *{
     margin: auto 0%;
     padding: 0;
@@ -12,7 +13,6 @@
 .container {
     width: 50%;
     font-size: 2rem;
-    font-family: 'Shizuru', cursive;
     color: rgb(24, 36, 2);
    
     box-sizing: border-box;
@@ -41,17 +41,18 @@
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
+    background: rgb(3, 204, 204);
    
 } 
 #question {
     font-size: 30px;
     text-align: center;
+    font-weight: 100;
     margin: 75px 0px 25px 0px;
 
 }
 .choice-text {
     font-size: 25px;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -106,12 +107,11 @@
 .btn {
     width: 50%;
     font-size: 1.5rem;
-    font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;
     justify-items: center;
     color: black;
-    background:#ffffff;
+    background: rgb(3, 204, 204);
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;

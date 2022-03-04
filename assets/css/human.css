@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 *{
     margin: auto 0%;
     padding: 0;
@@ -5,12 +6,12 @@
 .bg2 img {
     width: 100%;
     margin-top: 0%;
+    background: cover;
     position: absolute;
 }
 .container {
     width: 60%;
     font-size: 2rem;
-    font-family: 'Shizuru', cursive;
     color: rgb(219, 215, 215);
    
     box-sizing: border-box;
@@ -43,14 +44,14 @@
     text-align: center;
 }
 #question {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    font-weight: 100;
     margin: 85px 0px 25px 0px;
 
 }
 .choice-text {
     font-size: 25px;
-    font-weight: bold;
     text-align: center;
 }
 #game {
@@ -104,7 +105,6 @@
 .btn {
     width: 50%;
     font-size: 1.5rem;
-    font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;
     justify-items: center;
