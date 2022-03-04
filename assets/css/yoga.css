@@ -3,21 +3,20 @@
     padding: 0;
 }
 .bg2 img {
-    height: 100vh;
     width: 100%;
-    background-size: cover;
-    margin: auto 0%;
+    height: 100vh;
+    margin-top: 0%;
     position: absolute;
 }
 .container {
     width: 60%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
-    color: #ffffff;
+    color: rgb(219, 215, 215);
    
     box-sizing: border-box;
-    padding: 3px;
-    margin: 20px auto 0px auto;
+    padding: 2px;
+    margin: 30px auto 0px auto;
   
     position: relative;
 }
@@ -25,7 +24,7 @@
 .choice-container {
     color: black;
     width: 80%;
-    background: linear-gradient(#ffffff, rgb(218, 73, 116)) 0.3%;
+    background: linear-gradient(#e25295, #ffffff);
     font-size: 1rem;
     background-size: 10px;
     margin-right: auto;
@@ -39,19 +38,24 @@
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
+    background: #ffffff;
 } 
-
+.choice-prefix {
+    text-align: center;
+}
 #question {
     font-size: 30px;
     text-align: center;
-    margin: 45px 0px 25px 0px;
+    margin: 45px 0px 45px 0px;
 
 }
 .choice-text {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+}
+#game {
+    margin-top: 8rem;
 }
 
 #quiz {
@@ -92,7 +96,6 @@
     margin-top: 20px;
     border-radius: 50px;
     overflow: hidden;
-    
 }
 
 .btn-home {
@@ -107,7 +110,7 @@
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#d10c68, #ffffff);
+    background: linear-gradient(#e25295, #ffffff);
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
