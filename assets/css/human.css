@@ -47,13 +47,16 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin: 45px 0px 15px 0px;
+    margin: 85px 0px 25px 0px;
 
 }
 .choice-text {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+}
+#game {
+    margin-top: 8rem;
 }
 
 #quiz {
@@ -75,7 +78,7 @@
 }
 
 .correct {
-    background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
+    background: linear-gradient(32deg, rgba(11,223,36,1) 0%, rgb(41,232,111,1) 100%);
 }
 .incorrect {
   background: linear-gradient(32deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);

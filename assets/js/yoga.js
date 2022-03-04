@@ -24,7 +24,7 @@ let questions = [{
         choice1: "Prayer point",
         choice2: "Karma",
         choice3: "Performance",
-        choice4: "Energy",
+        choice4: "Energy center",
         answer: 4,
     },
 
@@ -33,7 +33,7 @@ let questions = [{
         choice1: "The brain",
         choice2: "The base of the spine",
         choice3: "The whole body",
-        choice4: "The forhead",
+        choice4: "The forehead",
         answer: 2,
     },
     {
@@ -48,7 +48,7 @@ let questions = [{
         question: "What is the true meaning of yoga?",
         choice1: "Physical health",
         choice2: "Attaining freedom",
-        choice3: "Spirutual union",
+        choice3: "Spiritual union",
         choice4: "Strength",
         answer: 3,
     },

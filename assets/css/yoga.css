@@ -10,7 +10,7 @@
     position: absolute;
 }
 .container {
-    width: 80%;
+    width: 60%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
     color: #ffffff;
@@ -73,7 +73,7 @@
 }
 
 .correct {
-    background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
+    background: linear-gradient(32deg, rgba(11,223,36,1) 0%, rgb(41,232,111,1) 100%);
 }
 .incorrect {
   background: linear-gradient(32deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);
