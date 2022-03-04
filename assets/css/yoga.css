@@ -10,7 +10,7 @@
     position: absolute;
 }
 .container {
-    width: 50%;
+    width: 80%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
     color: #ffffff;
@@ -25,7 +25,7 @@
 .choice-container {
     color: black;
     width: 80%;
-    background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
+    background: linear-gradient(#ffffff, rgb(218, 73, 116)) 0.3%;
     font-size: 1rem;
     background-size: 10px;
     margin-right: auto;
@@ -42,12 +42,12 @@
     background: linear-gradient(#ffffff, rgb(233, 29, 90)) 0.3%;
 } 
 #question {
-    font-size: 30px;
+    font-size: 3rem;
     text-align: center;
-    margin-top: 20px 5px;
+    margin: 20px 0 15px 0;
 }
 .choice-text {
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: 100;
     text-align: center;
 }
@@ -63,7 +63,9 @@
 .quiz-score-no {
    text-align: center;
 }
+#Q-container {
 
+}
 .correct {
     background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
 }
@@ -89,7 +91,7 @@
 
 .btn {
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;

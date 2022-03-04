@@ -42,7 +42,7 @@ let questions = [{
         choice2: "Tokyo",
         choice3: "Beijing",
         choice4: "Atlanta",
-        answer: 4,
+        answer: 3,
     },
     {
         question: "When were the first recorded olympics held?",

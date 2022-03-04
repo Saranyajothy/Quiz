@@ -39,7 +39,7 @@ let questions = [{
     {
         question: "What ingredient makes bread rise?",
         choice1: "Vinigar",
-        choice2: "Baking soda",
+        choice2: "gelatine",
         choice3: "Yeast",
         choice4: "Oil",
         answer: 3,
@@ -50,7 +50,7 @@ let questions = [{
         choice2: "Orchid thives",
         choice3: "Vodka",
         choice4: "Sweet wine",
-        answer: 1,
+        answer: 4,
     },
 ]
 // questions and score

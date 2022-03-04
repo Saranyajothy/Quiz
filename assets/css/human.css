@@ -62,13 +62,19 @@
     font-size: 40px;
     margin-top: 50px;
 }
-
-.quiz-score {
-   margin-top: 25px;
+#progressText {
+    padding-bottom: 5px;
 }
+
+#col-6 .score {
+    margin-top: 3rem;
+}
+
 .quiz-score-no {
    text-align: center;
+   background-color: ;
 }
+
 .correct {
     background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
 }
@@ -91,14 +97,6 @@
     overflow: hidden;
     
 }
-/* #progressBar {
-    height: 100%;
-    animation: progress-animation 5s infinite;
-}
-@keyframes progress-animation {
-    0% { width: 0%; }
-    100% { width: 100%; }
-} */
 
 .btn-home {
     font-size: 50px;

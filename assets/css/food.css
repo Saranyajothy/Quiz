@@ -59,11 +59,13 @@
     font-size: 40px;
     margin-top: 30px;
 }
-.quiz-score {
-   margin-top: 25px;
-}
+
 .quiz-score-no {
    text-align: center;
+}
+
+#progressText {
+    margin-top: 3rem;
 }
 .correct {
     background: linear-gradient(32deg, rgba(11,223,36,1) 0% rgb(41,232,111,1) 100%)
