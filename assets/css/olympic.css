@@ -45,7 +45,7 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin: 45px 0px 15px 0px;
+    margin: 85px 0px 25px 0px;
 }
 
 .choice-text {
@@ -84,6 +84,10 @@
     height: 100%;
     background: rgb(11,223,36);
     width: 0%;
+}
+
+#game {
+    margin-top: 8rem;
 }
 
 #progressBar {
