@@ -58,7 +58,8 @@
     display: none;
 }
 .btn {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
     font-family: 'Gideon Roman', cursive;
     padding: 3px 0%;
     width: 30rem;

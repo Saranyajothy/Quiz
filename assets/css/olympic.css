@@ -10,12 +10,11 @@
     position: absolute;
 }
 .container {
-    width: 50%;
+    width: 60%;
     font-size: 2rem;
     font-family: 'Shizuru', cursive;
-    color: rgb(24, 36, 2);
+    color: #000000;
    
-    box-sizing: border-box;
     padding: 3px;
     margin: 30px auto 0px auto;
   
@@ -41,32 +40,37 @@
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-   
-} 
+}
+
 #question {
     font-size: 30px;
     text-align: center;
-    margin-top: 20px 0px 5px 0px;
-    color: #ffffff;
+    margin: 45px 0px 15px 0px;
 }
+
 .choice-text {
     font-size: 25px;
-    font-weight: 100;
+    font-weight: bold;
     text-align: center;
 }
+
 #quiz {
     display: flex;
     justify-content: space-between;
     font-size: 40px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-.quiz-score {
-   margin-top: 25px;
-   color: #ffffff;
+
+#progressText {
+    padding-bottom: 5px;
 }
+
+#col-6 .score {
+    margin-top: 3rem;
+}
+
 .quiz-score-no {
    text-align: center;
-   color: #ffffff;
 }
 
 .correct {
@@ -86,21 +90,24 @@
     width: 15rem;
     height: 1rem;
     border: 0.2rem solid rgb(11,223,36);
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 50px;
     overflow: hidden;
-    
+}
+
+.btn-home {
+    font-size: 50px;
 }
 
 .btn {
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#ffffff, rgb(196, 209, 8)) 0.3%;
+    background: linear-gradient(#ffffff,rgb(250, 143, 104));
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
@@ -121,7 +128,6 @@
 
     position: relative;
 }
-
 /* media query
 /* For larger to medium screens size from 700px wide and down */ 
 @media screen and (max-width: 700px) {
