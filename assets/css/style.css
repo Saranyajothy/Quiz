@@ -1,5 +1,14 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap'); */
-.bg1 img {
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+img {
     min-height: 100vh;
     width: 100%;
     background-size: cover;
@@ -11,7 +20,6 @@
 .heading {
     width: 50%;
     font-size: 6rem;
-    font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -60,7 +68,6 @@
 .btn {
     font-size: 1.8rem;
     font-weight: bolder;
-    font-family: 'Gideon Roman', cursive;
     padding: 3px 0%;
     width: 30rem;
     justify-content: center;
@@ -89,20 +96,17 @@
 .heading {
     width: 50%;
     font-size: 5rem;
-    font-family: 'Shizuru', cursive;
     padding: 3px;
     margin: 5px auto 0px auto;
 
 }
 
 .content {
-    font-family: 'Gideon Roman', cursive;
     font-size: 20px;
     padding: 35px 0 5px 0;
 }
 .btn {
     font-size: 1.5rem;
-    font-family: 'Gideon Roman', cursive;
     padding: 2px 0%;
     width: 30rem;
     margin-bottom: 0.5rem;
@@ -117,20 +121,17 @@
     .heading {
         width: 50%;
         font-size: 5rem;
-        font-family: 'Shizuru', cursive;
         padding: 3px;
         margin: 5px auto 0px auto;
     
     }
     
     .content {
-        font-family: 'Gideon Roman', cursive;
         font-size: 20px;
         padding: 20px 0 10px 0;
     }
     .btn {
         font-size: 1rem;
-        font-family: 'Gideon Roman', cursive;
         padding: 2px 0%;
         width: 25rem;
         margin-bottom: 0.5rem;
@@ -146,21 +147,18 @@
     .heading {
         width: 50%;
         font-size: 3rem;
-        font-family: 'Shizuru', cursive;
         padding: 15px;
         margin-top: 20px;
     
     }
     
     .content {
-        font-family: 'Gideon Roman', cursive;
         font-size: 15px;
         padding: 28px 0 2px 0;
 
     }
     .btn {
         font-size: 1.2rem;
-        font-family: 'Gideon Roman', cursive;
         padding: 3px 0%;
         width: 20rem;
         margin-bottom: 0.5rem;
@@ -177,21 +175,18 @@
     .heading {
         width: 50%;
         font-size: 3rem;
-        font-family: 'Shizuru', cursive;
         padding: 15px;
         margin-top: 20px;
     
     }
     
     .content {
-        font-family: 'Gideon Roman', cursive;
         font-size: 15px;
         padding: 25px 0 2px 0;
 
     }
     .btn {
         font-size: 1.2rem;
-        font-family: 'Gideon Roman', cursive;
         padding: 3px 0%;
         width: 10rem;
         margin-bottom: 0.5rem;
@@ -208,21 +203,18 @@
     .heading {
         width: 50%;
         font-size: 3rem;
-        font-family: 'Shizuru', cursive;
         padding: 15px;
         margin-top: 20px;
     
     }
     
     .content {
-        font-family: 'Gideon Roman', cursive;
         font-size: 12px;
         padding: 30px 0 2px 0;
 
     }
     .btn {
         font-size: 1.2rem;
-        font-family: 'Gideon Roman', cursive;
         padding: 3px 0%;
         width: 10rem;
         margin-bottom: 0.5rem;

@@ -12,47 +12,48 @@ let questionCounter = 0
 let availableQuestions = []
 
 let questions = [{
-        question: "Where in the body does most of digestion take place?",
-        choice1: "Small Intestine",
-        choice2: "Stomach",
-        choice3: "Mouth",
-        choice4: "Large Intestine",
-        answer: 1,
-    },
-    {
-        question: "Where in the body are new blood cells made?",
-        choice1: "Liver",
-        choice2: "Brain",
-        choice3: "Bone marrow",
-        choice4: "Heart",
-        answer: 3,
-    },
+    question: "How many Chakras are in the human body?",
+    choice1: "Seven",
+    choice2: "Three",
+    choice3: "Twenty-five",
+    choice4: "Eight",
+    answer: 1,
+},
+{
+    question: "What is Chakra?",
+    choice1: "Prayer point",
+    choice2: "Karma",
+    choice3: "Performance",
+    choice4: "Energy center",
+    answer: 4,
+},
 
-    {
-        question: "Which type of joint is your thumb joint?",
-        choice1: "Hinge",
-        choice2: "Saddle",
-        choice3: "Glide",
-        choice4: "Ball and socket",
-        answer: 2,
-    },
-    {
-        question: "What is the heaviest organ in the human body?",
-        choice1: "Kidney",
-        choice2: "Brain",
-        choice3: "Liver",
-        choice4: "Skin",
-        answer: 4,
-    },
-    {
-        question: "What is the longest bone in the Human body?",
-        choice1: "Thigh bone",
-        choice2: "Collarbone",
-        choice3: "Spine",
-        choice4: "Shinbone",
-        answer: 1,
-    },
+{
+    question: "Where is kundalini located?",
+    choice1: "The brain",
+    choice2: "The base of the spine",
+    choice3: "The whole body",
+    choice4: "The forehead",
+    answer: 2,
+},
+{
+    question: "Which Chakrs signifies the process of enlightenment?",
+    choice1: "3rd",
+    choice2: "4th",
+    choice3: "6th",
+    choice4: "7th",
+    answer: 4,
+},
+{
+    question: "What is the true meaning of yoga?",
+    choice1: "Physical health",
+    choice2: "Attaining freedom",
+    choice3: "Spiritual union",
+    choice4: "Strength",
+    answer: 3,
+},
 ]
+
 // questions and score
 const SCORE_BONUS = 10
 const MAXIMUM_QUESTIONS = 5

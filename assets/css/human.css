@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
-*{
-    margin: auto 0%;
-    padding: 0;
-}
+
 .bg2 img {
     width: 100%;
     min-height: 100vh;
