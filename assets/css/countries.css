@@ -46,7 +46,7 @@
 #question {
     font-size: 30px;
     text-align: center;
-    margin: 45px 0px 15px 0px;
+    margin: 85px 0px 15px 0px;
 
 }
 .choice-text {
@@ -95,6 +95,10 @@
     overflow: hidden;
 }
 
+#game {
+    margin-top: 8rem;
+}
+
 .btn-home {
     font-size: 50px;
 }
@@ -107,7 +111,7 @@
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#ffffff, turquiose;
+    background:#ffffff;
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
