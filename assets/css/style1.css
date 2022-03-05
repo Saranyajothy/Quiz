@@ -7,7 +7,6 @@ body{
     background-image: url('/assets/images/bg.jpeg');
     background-size:100% 110%;
     background-repeat: no-repeat;
-    /* 100% 143%: */
 }
 #logo{
     height:800px;
@@ -151,9 +150,37 @@ body{
 } */
 
 /* media query
+/* For screens size from 1440 x 900px wide and down */
+@media screen and (max-width: 1440px) {
+    .bg1{
+        background-position: 10px 10px;
+    }
+}
+
+/* media query
+/* For screens size from 114 x 896px wide and down */
+@media screen and (max-width: 600px) {
+    .bg1{
+        background-size: 100% 162%;
+    }
+}
+
+
+/* media query
+/* For screens size from 1440 x 900px wide and down */
+@media screen and (max-width: 600px) {
+    .bg1{
+        background-size: 100% 88%;
+    }
+    #logo{
+        height:960px;
+    }
+}
+
+    /* media query
 /* For screens size from 760 x 1024px wide and down */
 @media screen and (max-width: 1200px) {
-    .heading {
+    .heading {x
         width: 50%;
         font-size: 4rem;
         padding-top: 40px;
@@ -228,15 +255,6 @@ body{
 }
 
 
-
-@media screen and (min-width: 359px) and  (max-width: 900px) {
-    /* .bg1{
-        background-size:100% 110%;
-    }
-    #logo{
-        height:565px;
-    } */
-}
 
 @media only screen and (orientation: landscape) {
 }
