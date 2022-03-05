@@ -52,6 +52,7 @@ body{
 }
 .choice-text {
     font-size: 25px;
+    font-weight: bold;
     text-align: center;
     margin: 0%;
 }
@@ -64,12 +65,16 @@ body{
 }
 #progressText {
     padding-bottom: 5px;
+    font-weight: bold;
 }
 
 #col-6 .score {
     margin-top: 3rem;
+    font-weight: bold;
 }
-
+.quiz-score {
+    font-weight: bold;
+}
 .quiz-score-no {
    text-align: center;
 }
@@ -129,23 +134,64 @@ body{
     position: relative;
 }
 
+
 /* media query
-/* For larger to medium screens size from 700px wide and down 
-@media screen and (max-width: 700px) {
+/* For screens size from 1200 wide and down */
+@media screen and (max-width: 1200px) {
+    #question {
+        font-size: 25px;
+        margin: 45px 0px 25px 0px;
+        font-weight: 400;
+    }
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 30px;
+    }
+    
     #quiz {
-        display: inline-block;
-        font-size: 2rem;
-        margin-top: 50px;
+        font-size: 30px;
     }
+    
     .quiz-score-no {
-        display: inline-block;
-        font-size: 2rem;
-    
+       text-align: center;
     }
 
+}
+
+/* media query
+/* For screens size from 600 wide and down */
+@media screen and (max-width: 600px) {
+    #question {
+        font-size: 23px;
+    }
+
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 20px;
+    }
+    
+    #quiz {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    
+    .quiz-score-no {
+       text-align: center;
+    }
+    .choice-text {
+        font-size: 20px;
+    }
     #progressBar {
-        width: 10rem;
+        width: 8rem;
+    }
+    .choice-container {
+        width: 80%;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    #progressBar {
+        height: 0.5rem; 
     }
 
-    
-} */
+}   

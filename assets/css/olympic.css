@@ -43,7 +43,7 @@ body{
 #question {
     font-size: 30px;
     text-align: center;
-    font-weight: 100;
+    font-weight: bold;
     margin: 45px 0px 25px 0px;
 }
 
@@ -62,10 +62,12 @@ body{
 
 #progressText {
     padding-bottom: 5px;
+    font-weight: bold;
 }
 
 #col-6 .score {
     margin-top: 3rem;
+    font-weight: bold;
 }
 
 .quiz-score-no {
@@ -147,6 +149,5 @@ body{
     #progressBar {
         width: 10rem;
     }
-
-    
 }
+
