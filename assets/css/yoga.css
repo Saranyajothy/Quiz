@@ -15,7 +15,7 @@ body {
     position: absolute;
 }
 .container {
-    width: 60%;
+    width: 80%;
     font-size: 2rem;
     color: rgb(219, 215, 215);
    
@@ -52,30 +52,32 @@ body {
     font-size: 35px;
     text-align: center;
     font-weight: 100;
-    margin: 45px 0px 45px 0px;
+    margin: 45px 0px 25px 0px;
 
 }
 .choice-text {
     font-size: 25px;
     text-align: center;
+    margin: 0%;
 }
 
 #quiz {
     display: flex;
     justify-content: space-between;
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 #progressText {
     padding-bottom: 5px;
 }
 
 #col-6 .score {
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .quiz-score-no {
    text-align: center;
+   margin-top: 20px;
 }
 
 .correct {
@@ -111,7 +113,7 @@ body {
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#e25295, #ffffff);
+    background: linear-gradient(#d10c68, rgb(189, 189, 7)) 0.3%;
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
@@ -132,3 +134,61 @@ body {
 
     position: relative;
 }
+
+
+/* media query
+/* For screens size from 1200 wide and down */
+@media screen and (max-width: 1200px) {
+   
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 30px;
+    }
+    
+    #quiz {
+        font-size: 30px;
+    }
+    
+    .quiz-score-no {
+       text-align: center;
+    }
+
+}
+
+/* media query
+/* For screens size from 600 wide and down */
+@media screen and (max-width: 600px) {
+    #question {
+        font-size: 23px;
+    }
+
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 20px;
+    }
+    
+    #quiz {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    
+    .quiz-score-no {
+       text-align: center;
+    }
+    .choice-text {
+        font-size: 20px;
+    }
+    #progressBar {
+        width: 8rem;
+    }
+    .choice-container {
+        width: 80%;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    #progressBar {
+        height: 0.5rem; 
+    }
+
+}   

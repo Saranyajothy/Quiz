@@ -72,6 +72,7 @@ body{
 
 .quiz-score-no {
    text-align: center;
+   margin-top: 20px;
 }
 
 .correct {
@@ -188,4 +189,5 @@ body{
     #progressBar {
         height: 0.5rem; 
     }
-    
+
+}   
