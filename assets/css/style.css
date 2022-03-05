@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
-html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
+/*@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap'); */
 
-img {
+.bg1 img {
     min-height: 100vh;
     width: 100%;
     background-size: cover;
@@ -20,6 +12,7 @@ img {
 .heading {
     width: 50%;
     font-size: 6rem;
+    font-family: 'Shizuru', cursive;
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -66,10 +59,10 @@ img {
     display: none;
 }
 .btn {
-    font-size: 1.8rem;
-    font-weight: bolder;
-    padding: 3px 0%;
+    font-size: 1.5rem;
+    font-family: 'Gideon Roman', cursive;
     width: 30rem;
+    font-weight: 800;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -83,144 +76,7 @@ img {
 .btn:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background: linear-gradient( coral 0.3%, orange);
+    background: rgb(241, 243, 113);
     color: black;
 }
 
-
-/* media query */
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-
- 
-.heading {
-    width: 50%;
-    font-size: 5rem;
-    padding: 3px;
-    margin: 5px auto 0px auto;
-
-}
-
-.content {
-    font-size: 20px;
-    padding: 35px 0 5px 0;
-}
-.btn {
-    font-size: 1.5rem;
-    padding: 2px 0%;
-    width: 30rem;
-    margin-bottom: 0.5rem;
-}
-
-}
-
-/* media query */
-/* For larger to medium screens size from 1060px wide and down */
-@media screen and (max-width: 1050px) {
-
-    .heading {
-        width: 50%;
-        font-size: 5rem;
-        padding: 3px;
-        margin: 5px auto 0px auto;
-    
-    }
-    
-    .content {
-        font-size: 20px;
-        padding: 20px 0 10px 0;
-    }
-    .btn {
-        font-size: 1rem;
-        padding: 2px 0%;
-        width: 25rem;
-        margin-bottom: 0.5rem;
-        font-weight: 100px;
-    }
-    
-    
-}    
-/* media query
-/* For larger to medium screens size from 750px wide and down */ 
-@media screen and (max-width: 750px) {
-
-    .heading {
-        width: 50%;
-        font-size: 3rem;
-        padding: 15px;
-        margin-top: 20px;
-    
-    }
-    
-    .content {
-        font-size: 15px;
-        padding: 28px 0 2px 0;
-
-    }
-    .btn {
-        font-size: 1.2rem;
-        padding: 3px 0%;
-        width: 20rem;
-        margin-bottom: 0.5rem;
-       margin-left: 22px;
-    }
-
-    
-} 
-
-/* media query
-/* For larger to medium screens size from 470px wide and down */ 
-@media screen and (max-width: 470px) {
-
-    .heading {
-        width: 50%;
-        font-size: 3rem;
-        padding: 15px;
-        margin-top: 20px;
-    
-    }
-    
-    .content {
-        font-size: 15px;
-        padding: 25px 0 2px 0;
-
-    }
-    .btn {
-        font-size: 1.2rem;
-        padding: 3px 0%;
-        width: 10rem;
-        margin-bottom: 0.5rem;
-       margin-left: 22px;
-    }
-
-    
-} 
- 
-/* media query
-/* For larger to medium screens size from 360px wide and down */ 
-@media screen and (max-width: 360px) {
-
-    .heading {
-        width: 50%;
-        font-size: 3rem;
-        padding: 15px;
-        margin-top: 20px;
-    
-    }
-    
-    .content {
-        font-size: 12px;
-        padding: 30px 0 2px 0;
-
-    }
-    .btn {
-        font-size: 1.2rem;
-        padding: 3px 0%;
-        width: 10rem;
-        margin-bottom: 0.5rem;
-       margin-left: 22px;
-    }
-
-    
-} 
- 

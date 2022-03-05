@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
-
+*{
+    margin: auto 0%;
+    padding: 0;
+}
 .bg2 img {
     height: 150vh;
     width: 100%;
@@ -8,10 +11,11 @@
     position: absolute;
 }
 .container {
-    width: 60%;
+    width: 50%;
     font-size: 2rem;
-    color: #000000;
+    color: rgb(24, 36, 2);
    
+    box-sizing: border-box;
     padding: 3px;
     margin: 30px auto 0px auto;
   
@@ -37,15 +41,15 @@
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-}
-
+    background: rgb(3, 204, 204);
+   
+} 
 #question {
     font-size: 30px;
     text-align: center;
-    font-weight: 100;
     margin: 75px 0px 25px 0px;
-}
 
+}
 .choice-text {
     font-size: 25px;
     text-align: center;
@@ -57,7 +61,6 @@
     font-size: 40px;
     margin-top: 50px;
 }
-
 #progressText {
     padding-bottom: 5px;
 }
@@ -83,10 +86,6 @@
     width: 0%;
 }
 
-#game {
-    margin-top: 8rem;
-}
-
 #progressBar {
     width: 15rem;
     height: 1rem;
@@ -94,6 +93,10 @@
     margin-top: 20px;
     border-radius: 50px;
     overflow: hidden;
+}
+
+#game {
+    margin-top: 8rem;
 }
 
 .btn-home {
@@ -107,7 +110,7 @@
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#ffffff,rgb(250, 143, 104));
+    background: rgb(3, 204, 204);
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
@@ -128,6 +131,7 @@
 
     position: relative;
 }
+
 /* media query
 /* For larger to medium screens size from 700px wide and down */ 
 @media screen and (max-width: 700px) {
