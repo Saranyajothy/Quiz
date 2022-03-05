@@ -4,8 +4,10 @@ body{
     padding: 0%;
 }
 .bg1{
-
     background-image: url('/assets/images/bg.jpeg');
+    background-size:100% 143%;
+    background-repeat: no-repeat;
+    /* 100% 143%: */
 }
 .bg1 img {
     min-height: 100vh;
