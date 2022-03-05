@@ -11,7 +11,7 @@ body{
     position: absolute;
 }
 .container {
-    width: 50%;
+    width: 80%;
     font-size: 2rem;
     color: rgb(24, 36, 2);
    
@@ -47,12 +47,13 @@ body{
 #question {
     font-size: 30px;
     text-align: center;
-    margin: 75px 0px 25px 0px;
+    margin: 45px 0px 25px 0px;
 
 }
 .choice-text {
     font-size: 25px;
     text-align: center;
+    margin: 0%;
 }
 
 #quiz {
@@ -93,10 +94,6 @@ body{
     margin-top: 20px;
     border-radius: 50px;
     overflow: hidden;
-}
-
-#game {
-    margin-top: 8rem;
 }
 
 .btn-home {
