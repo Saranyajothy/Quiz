@@ -3,6 +3,10 @@ body{
     margin: -10px 0%;
     padding: 0%;
 }
+.bg1{
+
+    background-image: url('assets/images/bg.jpeg');
+}
 .bg1 img {
     min-height: 100vh;
     width: 100%;
