@@ -37,7 +37,7 @@ body{
     color: rgb(219, 215, 215);
     font-size: 25px;
     padding: 45px 0 5px 0;
-    font-weight: 100;
+
     width: 50%;
     margin-right: auto;
     margin-left: auto;
@@ -195,15 +195,14 @@ body{
     .heading {
         width: 50%;
         font-size: 4rem;
-        padding-top: 30px;
+        padding-top: 14px;
     }
     .content {
         font-size: 15px;
-        padding: 75px 0 5px 0;
-        font-weight: 100;
+        padding: 45px 0 5px 0;
     }
     .btn {
-        width: 15rem;
+        width: 13rem;
         font-size: 20px;
         font-weight: bold;
         padding: 3px;
@@ -213,28 +212,14 @@ body{
     }
 }
 
-  /* media query
-/* For screens size from 370 wide and down */
-@media screen and (max-width: 370px) {
-    .heading {
-        width: 50%;
-        font-size: 4rem;
-        padding-top: 40px;
-    }
-    .content {
-        font-size: 15px;
-        padding: 65px 0 5px 0;
-        font-weight: 100;
-    }
-    .btn {
-        width: 10rem;
-        font-size: 15px;
-        font-weight: bold;
-        padding: 3px;
-    }
-    #category {
-        margin-top: 5px;
-    }
 }
 
-  
+@media screen and (max-width: 375px) {
+    .btn{
+        width: 13rem;
+        font-size: 17px;
+    }
+    .content{
+        padding:55px;
+    }
+}

@@ -130,7 +130,7 @@ body{
 }
 
 /* media query
-/* For larger to medium screens size from 700px wide and down */ 
+/* For larger to medium screens size from 700px wide and down 
 @media screen and (max-width: 700px) {
     #quiz {
         display: inline-block;
@@ -148,4 +148,4 @@ body{
     }
 
     
-}
+} */
