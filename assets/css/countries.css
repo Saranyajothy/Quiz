@@ -163,6 +163,7 @@ body{
 @media screen and (max-width: 600px) {
     #question {
         font-size: 23px;
+        font-weight: 600;
     }
 
     #progressText {
