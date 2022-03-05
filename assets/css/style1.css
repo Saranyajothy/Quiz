@@ -5,11 +5,14 @@ body{
 }
 .bg1{
     background-image: url('/assets/images/bg.jpeg');
-    background-size:100% 143%;
+    background-size:100% 110%;
     background-repeat: no-repeat;
     /* 100% 143%: */
 }
-.bg1 img {
+#logo{
+    height:800px;
+}
+/* .bg1 img {
     min-height: 100vh;
     width: 100%;
     background-size: cover;
@@ -17,7 +20,7 @@ body{
     margin: auto 0%;
     position: absolute;
 }
-
+ */
 .heading {
     width: 50%;
     font-size: 6rem;
@@ -198,6 +201,12 @@ body{
     /* media query
 /* For screens size from 560 wide and down */
 @media screen and (max-width: 560px) {
+    .bg1{
+        background-size:100% 110%;
+    }
+    #logo{
+        height:565px;
+    }
     .heading {
         width: 50%;
         font-size: 4rem;
@@ -218,14 +227,16 @@ body{
     }
 }
 
+
+
+@media screen and (min-width: 359px) and  (max-width: 900px) {
+    /* .bg1{
+        background-size:100% 110%;
+    }
+    #logo{
+        height:565px;
+    } */
 }
 
-@media screen and (max-width: 375px) {
-    .btn{
-        width: 13rem;
-        font-size: 17px;
-    }
-    .content{
-        padding:55px;
-    }
+@media only screen and (orientation: landscape) {
 }

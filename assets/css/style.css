@@ -85,64 +85,9 @@ body{
 #category {
     margin-top: 20px;
 }
-/* /* media query
-/* For small to medium screens size from 420px wide and down 
-@media screen and (max-width: 420px) {
-    .heading {
-        width: 50%;
-        font-size: 3rem;
-        font-family: 'Shizuru', cursive;
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-        color: rgb(219, 215, 215);
-       
-        padding-top: 40px;
-        margin: auto 0px ;
-        margin-right: auto;
-        margin-left: auto;
-    
-        position: relative;
-    }
-     
-    .content {
-        font-family: 'Gideon Roman', cursive;
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-        color: rgb(219, 215, 215);
-        font-size: 15px;
-        padding: 25px 0 5px 0;
-    
-        width: 70%;
-        margin-right: auto;
-        margin-left: auto;
-    
-        position: relative;
-    }
-    .btn {
-        font-size: 1rem;
-        font-family: 'Gideon Roman', cursive;
-        width: 13rem;
-        font-weight: 800;
-        padding: 3px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 0.5rem;
-        color: black;
-        text-decoration: none;
-        background: linear-gradient(#ffffff, skyblue) 0.3%;
-        box-sizing: border-box;
-        position: relative;
-    }
-    #category {
-        margin-top: 30px;
-    }
-} */
 
 /* media query
-/* For screens size from 760 x 1024px wide and down */
+/* For screens size from 1200 wide and down */
 @media screen and (max-width: 1200px) {
     .heading {
         width: 50%;
@@ -153,7 +98,7 @@ body{
      
     .content {
         font-size: 23px;
-        padding: 65px 0 5px 0;
+        padding: 45px 0 5px 0;
     }
     .btn {
         width: 30rem;
@@ -167,6 +112,29 @@ body{
 }
 
 /* media query
+/* For screens size from 900px wide and down */
+@media screen and (max-width: 900px) {
+    .heading {
+        width: 50%;
+        font-size: 4rem;
+        padding-top: 30px;
+    }
+    .content {
+        font-size: 23px;
+        padding: 45px 0 5px 0;
+    }
+    .btn {
+        width: 20rem;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 3px;
+    }
+    #category {
+        margin-top: 5px;
+    }
+}
+
+/* media query
 /* For screens size from 760 wide and down */
     @media screen and (max-width: 750px) {
         .heading {
@@ -176,7 +144,7 @@ body{
         }
         .content {
             font-size: 23px;
-            padding: 65px 0 5px 0;
+            padding: 45px 0 5px 0;
         }
         .btn {
             width: 20rem;
@@ -223,7 +191,7 @@ body{
     }
     .content {
         font-size: 15px;
-        padding: 65px 0 5px 0;
+        padding: 45px 0 5px 0;
         font-weight: 100;
     }
     .btn {
