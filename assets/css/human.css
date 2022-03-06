@@ -196,7 +196,15 @@ body{
 /* For screens size from 770px wide and 1030px height */
 @media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
    
-    #col-6 .score{
-        margin-top: 3rem;
+    #progressText {
+        padding-top: 125px;
     }
+    .score {
+        padding-top: 125px;
+    }
+    #question {
+        font-size: 25px;
+        margin: 25px 0px 25px 0px;
+    }
+
 }
