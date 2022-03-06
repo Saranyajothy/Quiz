@@ -3,6 +3,7 @@ body{
     margin:-30px  0%;
     padding: 0%;
 }
+
 .bg2 img {
     height: 150vh;
     width: 100%;
@@ -10,6 +11,7 @@ body{
     margin-top: 0%;
     position: absolute;
 }
+
 .container {
     width: 80%;
     font-size: 2rem;
@@ -18,9 +20,11 @@ body{
     margin: 30px auto 0px auto;
     position: relative;
 }
+
 .justify-center {
     width: 100%;
 }
+
 .choice-container {
     color: black;
     width: 80%;
@@ -35,6 +39,7 @@ body{
     box-sizing: border-box;
     position: relative;
 }
+
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
@@ -60,6 +65,7 @@ body{
     font-size: 35px;
     margin-top: 50px;
 }
+
 #progressText {
     padding-bottom: 5px;
     font-weight: bold;
@@ -68,9 +74,11 @@ body{
 #col-6 .score {
     margin-top: 3rem;
 }
+
 .quiz-score {
     font-weight: bold;
 }
+
 .quiz-score-no {
    text-align: center;
    font-weight: bold;
@@ -79,6 +87,7 @@ body{
 .correct {
     background: linear-gradient(32deg, rgba(11,223,36,1) 0%, rgb(41,232,111,1) 100%);
 }
+
 .incorrect {
   background: linear-gradient(32deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);
 }
@@ -143,6 +152,7 @@ body{
         margin: 45px 0px 25px 0px;
         font-weight: 400;
     }
+
     #progressText {
         padding-bottom: 2px;
         font-size: 30px;
@@ -179,22 +189,26 @@ body{
     .quiz-score-no {
        text-align: center;
     }
+
     .choice-text {
         font-size: 20px;
     }
+
     #progressBar {
         width: 8rem;
     }
+
     .choice-container {
         width: 80%;
     }
+
     .btn{
         font-size: 20px;
     }
+
     #progressBar {
         height: 0.5rem; 
     }
-
 } 
 
 /* media query
@@ -206,26 +220,29 @@ body{
         font-weight: bold;
         font-size: 35px;
     }
+
     .score {
         padding-top: 105px;
         font-weight: bold;
         font-size: 35px;
     }
+
     .quiz-score {
         font-weight: bold;
         font-size: 35px;
     }
+
     .quiz-score-no {
        text-align: center;
        font-weight: bold;
        font-size: 35px;
     }
+
     #question {
         font-weight: bold;
         margin: 25px 0px 25px 0px;
         font-size: 35px;
     }
-
 }
 /* media query
 /* For screens size 320px x 480px*/
@@ -235,21 +252,26 @@ body{
         font-size: 18px;
         margin: 10px 0px 15px 0px;
     } 
+
     .choice-text {
         font-size: 15px;
     }
+
     .btn{
         font-size: 15px;
         padding: 0px;
     }
+
     #progressBar {
         height: 0.3rem; 
         width: 6rem;
     }
+
     #progressText {
         font-size: 18px;
         padding-top: 14px;
     }
+    
     .quiz-score {
         font-size: 18px;
         padding-top: 12px;
