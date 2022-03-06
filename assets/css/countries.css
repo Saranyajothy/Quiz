@@ -262,3 +262,29 @@ body{
     
 
 }  
+
+/* media query
+/* For screens size 1440px x 900px*/
+
+@media screen and (max-width: 1440px) and (max-height: 900px) and (min-width: 1440px) and (min-height: 900px) {
+    #question {
+        font-size: 40px;
+        margin: 15px 0px 25px 0px;
+    }
+    
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 45px;
+    }
+    
+    #quiz {
+        font-size: 45px;
+    }
+    .choice-text {
+        font-size: 45px;
+    }
+
+    .btn {
+        font-size: 30px;
+    }
+}
