@@ -190,4 +190,13 @@ body{
         height: 0.5rem; 
     }
 
-}   
+} 
+
+/* media query
+/* For screens size from 770px wide and 1030px height */
+@media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
+   
+    #col-6 .score{
+        margin-top: 3rem;
+    }
+}
