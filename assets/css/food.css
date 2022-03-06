@@ -191,4 +191,35 @@ body{
         width: 8rem;
     }
 
-}   
+} 
+
+/* media query
+/* For screens size from 770px wide and 1030px height */
+@media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
+   
+    #progressText {
+        padding-top: 125px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .score {
+        padding-top: 125px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .quiz-score {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .quiz-score-no {
+       text-align: center;
+       font-weight: bold;
+       font-size: 35px;
+    }
+    #question {
+        font-weight: bold;
+        margin: 25px 0px 25px 0px;
+        font-size: 35px;
+    }
+
+}
