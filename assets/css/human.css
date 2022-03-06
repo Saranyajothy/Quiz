@@ -191,11 +191,7 @@ body{
     }
 
 } 
-
 /* media query
-/* For screens size from 770px wide and 1030px height */
-@media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
-   /* media query
 /* For screens size from 770px wide and 1030px height */
 @media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
    
@@ -228,5 +224,37 @@ body{
     }
 
 }
+/* media query
+/* For screens size 320px x 480px*/
 
-}
+@media screen and (max-width: 320px) and (max-height: 480px) and (min-width: 320px) and (min-height: 480px) {
+    #question {
+        font-size: 18px;
+        margin: 10px 0px 10px 0px;
+    } 
+    .choice-text {
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    #progressBar {
+        height: 0.3rem; 
+        width: 6rem;
+    }
+    #progressText {
+        font-size: 18px;
+        padding-top: 14px;
+    }
+    .quiz-score {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+
+    #quiz.row {
+        margin-top: -1px;
+        padding-top: 24px;
+    }
+    
+
+}  
