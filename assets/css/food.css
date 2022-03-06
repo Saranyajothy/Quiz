@@ -12,7 +12,7 @@ body{
     position: absolute;
 }
 .container {
-    width: 50%;
+    width: 60%;
     font-size: 2rem;
     color: #d10c37;
     padding: 3px;
@@ -124,3 +124,71 @@ body{
 
     position: relative;
 }
+
+/* media query
+/* For screens size from 1200 wide and down */
+@media screen and (max-width: 1200px) {
+    #question {
+        font-size: 25px;
+        margin: 45px 0px 25px 0px;
+        font-weight: 400;
+    }
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 30px;
+    }
+    
+    #quiz {
+        font-size: 30px;
+    }
+    
+    .quiz-score-no {
+       text-align: center;
+    }
+
+}
+
+/* media query
+/* For screens size from 600 wide and down */
+@media screen and (max-width: 600px) {
+    #question {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 20px;
+    }
+    
+    #quiz {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .quiz-score {
+        font-weight: bold;
+    }
+    .quiz-score-no {
+       text-align: center;
+       font-weight: bold;
+    }
+    .choice-text {
+        font-size: 20px;
+    }
+    #progressText {
+        font-weight: bold;
+    }
+    .choice-container {
+        width: 80%;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    #progressBar {
+        height: 0.5rem; 
+    }
+    #progressBar {
+        width: 8rem;
+    }
+
+}   
