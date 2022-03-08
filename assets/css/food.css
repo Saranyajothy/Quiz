@@ -377,3 +377,47 @@ body{
         font-size: 30px;
     }
 }
+
+/* For screens size 1680px x 1050px*/
+@media screen and (max-width: 1680px) and (max-height: 1050px) and (min-width: 1680px) and (min-height: 1050px) {
+    #question {
+        font-size: 45px;
+        margin: 30px 0px 35px 0px;
+    }
+
+    #progressText {
+        font-size: 45px;
+        padding-top: 35px;
+    }
+
+    .quiz-score {
+        font-size: 45px;
+        padding-top: 25px;
+    }
+    #quiz {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .choice-text {
+        font-size: 35px;
+    }
+    #progressBar {
+        height: 2rem; 
+        width: 15rem;
+    }
+    .btn {
+        font-size: 35px;
+    }
+    .container {
+        padding: 2px;
+        margin: 60px auto 0px auto;
+    }
+    
+    .choice-container {
+        padding: 6px 0%;
+        margin-bottom: 1rem;
+    }
+    .quiz-score-no {
+        font-size: 45px;
+    }
+}
