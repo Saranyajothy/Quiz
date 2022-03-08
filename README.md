@@ -37,21 +37,21 @@ Each category has five questions and allows user to pick the correct answer from
 ____
 
 # User experience
-## The target audience
 ## User's journey
 A user should go through the site like a purposeful journey and to ensure this,
 
 - The user needs to quickly know the purpose on the site.
 - The user should be able to spontaneously and easily navigate through the site.
-- The user will know about Bharatanatyam dance school, dance school, dance classes details, venue and frequency of classes.
-- The user will get a lively experience of the dance form by viewing the gallery to enjoy dance pictures of students, dance costumes, postures and expressions. 
-- The user will know about the skills of the dance teacher (Guru), qualifications, profile, experience and credentials.
-- The user will be able to get the required information within a short span of time.
+- The user will get to know their memory power and general knowledge. 
 - The user will find the information in plain and common language.
-- The user will find necessary information to enroll for dance classes.
-- The user will find options to contact the team and to make an inquiry.
-
-
+- The user will find four options to choose the correct answers.
+- The user will find the questions and choices are very clear to read and play.
+## 
+## The target audience
+- To engage children above 10 years old and adults with an interactive quiz in different categories
+- To create an informative and educational learning experience.
+- To make a platform for educational resource for parents, teachers, schools, office and social purposes.
+- To be fun and engaging.
 # Website structure
 ## Features
 - The site has a header with logo and footer.
