@@ -300,31 +300,52 @@ body{
     }
 }
 
-/* For screens size 1440px x 900px*/
+/* For screens size 1920px x 1200px*/
 
-@media screen and (max-width: 1440px) and (max-height: 900px) and (min-width: 1440px) and (min-height: 900px) {
+@media screen and (max-width: 1920px) and (max-height: 1200px) and (min-width: 1920px) and (min-height: 1200px) {
     #question {
         font-size: 40px;
         margin: 20px 0px 35px 0px;
     }
-    
+
     #progressText {
-        padding-bottom: 2px;
         font-size: 45px;
-    }
-    
-    #progressText {
-        font-size: 18px;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     .quiz-score {
-        font-size: 18px;
+        font-size: 45px;
         padding-top: 18px;
     }
-
-    #quiz.row {
-        margin-top: -1px;
-        padding-top: 30px;
+    #quiz {
+        font-size: 20px;
+        margin-top: 160px;
     }
+    .choice-text {
+        font-size: 45px;
+    }
+    #progressBar {
+        height: 2rem; 
+        width: 15rem;
+    }
+    .btn {
+        font-size: 45px;
+    }
+    .container {
+        padding: 2px;
+        margin: 50px auto 0px auto;
+    }
+    
+    .choice-container {
+        padding: 4px 0%;
+        margin-bottom: 1rem;
+    }
+    .quiz-score-no {
+        font-size: 55px;
+    }
+
+    #question {
+        font-size: 55px;
+    }
+
 }
