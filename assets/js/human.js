@@ -26,7 +26,6 @@ let questions = [{
         choice4: "Heart",
         answer: 3,
     },
-
     {
         question: "Which type of joint is your thumb joint?",
         choice1: "Hinge",

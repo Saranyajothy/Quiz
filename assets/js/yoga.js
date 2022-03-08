@@ -26,7 +26,6 @@ let questions = [{
     choice4: "Energy center",
     answer: 4,
 },
-
 {
     question: "Where is kundalini located?",
     choice1: "The brain",
