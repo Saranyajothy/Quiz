@@ -226,6 +226,26 @@ body{
 }
 
  /* media query
+/* For screens size from 768px wide and 1025px height */
+@media screen and (max-width: 768px) and (max-height: 1025px) and (min-width: 768px) and (min-height: 1025px) {
+    .heading {
+        font-size: 6rem;
+        padding-top: 80px;
+    }
+     
+    .content {
+        font-size: 30px;
+        padding: 60px 0 5px 0;
+    }
+
+    .btn {
+        width: 30rem;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px;
+    }
+}
+ /* media query
 /* For screens size from 770px wide and 1030px height */
 @media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
     .heading {
@@ -282,7 +302,7 @@ body{
 }
 
 /* media query
-/* For screens size 1600px x 1000px*/
+/* For screens size 1600 width x 1000px height*/
 
 @media screen and (max-width: 1600px) and (max-height: 1000px) and (min-width: 1600px) and (min-height: 1000px) {
     .heading {
