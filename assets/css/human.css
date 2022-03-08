@@ -274,7 +274,6 @@ body{
     }
 }  
 
-/* media query
 /* For screens size 1440px x 900px*/
 
 @media screen and (max-width: 1440px) and (max-height: 900px) and (min-width: 1440px) and (min-height: 900px) {
@@ -298,5 +297,34 @@ body{
 
     .btn {
         font-size: 30px;
+    }
+}
+
+/* For screens size 1440px x 900px*/
+
+@media screen and (max-width: 1440px) and (max-height: 900px) and (min-width: 1440px) and (min-height: 900px) {
+    #question {
+        font-size: 40px;
+        margin: 20px 0px 35px 0px;
+    }
+    
+    #progressText {
+        padding-bottom: 2px;
+        font-size: 45px;
+    }
+    
+    #progressText {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .quiz-score {
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    #quiz.row {
+        margin-top: -1px;
+        padding-top: 30px;
     }
 }
