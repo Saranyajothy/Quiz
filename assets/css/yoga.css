@@ -43,7 +43,7 @@ body {
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background: #ffffff;
+    background: linear-gradient(#d10c68, #ffffff)
 } 
 .choice-prefix {
     text-align: center;
@@ -113,7 +113,7 @@ body {
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#d10c68, rgb(189, 189, 7)) 0.3%;
+    background: linear-gradient(#d10c68, #ffffff);
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
