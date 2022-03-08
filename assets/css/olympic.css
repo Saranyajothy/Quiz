@@ -285,7 +285,7 @@ body{
 
 /* media query
 /* For screens size from 768px wide and 1025px height */
-@media screen and (max-width: 768px) and (max-height: 1025px) and (min-width: 768px) and (min-height: 1025px) {
+@media screen and (max-width: 768px) and (max-height: 1024px) and (min-width: 768px) and (min-height: 1024px) {
 
     #progressText {
         font-size: 45px;
