@@ -16,7 +16,6 @@ body{
     width: 80%;
     font-size: 2rem;
     color: black;
-   
     box-sizing: border-box;
     padding: 3px;
     margin: 30px auto 0px auto;
@@ -45,19 +44,18 @@ body{
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-    /* background: rgb(3, 204, 204); */
+    background-color: rgb(3, 204, 204);
 }
 
 #question {
     font-size: 30px;
     text-align: center;
-    color: black;
+    font-weight: bold;
     margin: 45px 0px 25px 0px;
 }
 
 .choice-text {
     font-size: 25px;
-    font-weight: bold;
     text-align: center;
     margin: 0%;
 }

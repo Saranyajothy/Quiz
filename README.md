@@ -1,108 +1,209 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Category Quiz
+Category quiz is games site designed for users above 10 years old and there is no higher age limit. It has five categories that allow visitors to test their knowledge in relevant topics. This is an educational and informative quiz that can be played for fun or brain storming session.
+Each category has five questions and allows user to pick the correct answer from four choices. For each question, the user gets one chance to choose the correct answer and score will displayed as they progress. Each correct answer carries 10 points and there is no point or a penalty for incorrect answer. A final scored will be awarded after completing five questions for respective category.
 
-Welcome Saranyajothy,
+![responsive]
+[click here to view the site]()
+# Table of contents
+- [User Experience](#user-experience)
+    - [The target audience](#target-audience)
+    - [User's journey](#user's-journey)
+- [Website Structure](#website-structure)
+    - [Features](#features)
+    - [Logo](#logo)
+    - [Navigation](#navigation)
+    - [Home](#home)
+    - [About us](about-us)
+    - [Contact](#contact)
+    - [Footer](#footer)
+- [Future Features](#future-Features)
+- [Website Surface](#website-Surface)
+    - [Wireframes](#wireframes)
+    - [Design Choices](#design-Choice) 
+    - [Colour Scheme](#colour-Scheme)
+    - [Typography](#typography)
+- [Testing](#testing)
+    - [Code validation](#code-Validation)
+    - [Light house](#light-house)
+    - [Color contrast checker](#color-contrast-checker)
+    - [Responsive testing](#responsive-testing)
+    - [Accessibility testing](#accessibility-testing)
+    - [Manual testing](#manual-testing)
+    - [Bug fixing](#bug-fixing)
+- [Technology Used](#technology-Used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgement](#acknowledgement)
+____
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# User experience
+## The target audience
+## User's journey
+A user should go through the site like a purposeful journey and to ensure this,
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- The user needs to quickly know the purpose on the site.
+- The user should be able to spontaneously and easily navigate through the site.
+- The user will know about Bharatanatyam dance school, dance school, dance classes details, venue and frequency of classes.
+- The user will get a lively experience of the dance form by viewing the gallery to enjoy dance pictures of students, dance costumes, postures and expressions. 
+- The user will know about the skills of the dance teacher (Guru), qualifications, profile, experience and credentials.
+- The user will be able to get the required information within a short span of time.
+- The user will find the information in plain and common language.
+- The user will find necessary information to enroll for dance classes.
+- The user will find options to contact the team and to make an inquiry.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Website structure
+## Features
+- The site has a header with logo and footer.
 
-`python3 -m http.server`
+- The site has three pages which are easy to navigate.
 
-A blue button should appear to click: _Make Public_,
+- Homepage gives information about the dance school, classes, venue and a gallery to view pictures which will enlarge when the cursor is on it.
 
-Another blue button should appear to click: _Open Browser_.
+- The About us page gives detailed information and credentials about the dance teacher.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Contact page gives various options for users to contact the team.
 
-A blue button should appear to click: _Make Public_,
+- When an enquiry form is submitted, a confirmation message appears with a Thank you note and a link to return back to the home page.
+## Logo
+- The logo has a symbol which denotes the power of the feminine.
+- The name of the dance school is on the logo next to the symbol.
 
-Another blue button should appear to click: _Open Browser_.
+## Navigation
+- The navigation, header and footer are similar for all the three pages.
+- The navigation is enabled for all screens such as desktop to mobile.
+- The navigation is placed on the top right corner.
+- When the logo is clicked from the any page, it takes to the home page.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![header](/readme-images/header.png)
+## Home
+- The home page is aimed to give all details about the dance school.
+- The home page starts with a picture of Lord Shiva, the dancing God and a quote to give value to the dance form.
+- The home page has three sections, which presents information about the dance school, classes and gallery with colourful pictures to bring an experience for global users.
 
-To log into the Heroku toolbelt CLI:
+- To give clear instructions about the classes offered, a table with three columns is illustrated to give precise information about level, duration of dance classes and venue with frequency of classes.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Dancing-god.png](/readme-images/Dancing-god.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![school.png](/readme-images/school.png)
 
-------
+![timings](/readme-images/timings.png)
 
-## Release History
+![gallery](/readme-images/gallery.png)
+## About us
+- A traditional dance school is valued by The Guru. Users should know about Guru’s qualification, skills, experience and various credentials.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- The About us page introduces the teacher with four distinctive pictures of Guru’s dance postures involved to highlight the grace, complexity and flexibility of postures.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- Below the pictures, a detailed profile is presented about the teacher to give a background, qualification and honors, versatile experience in different dance forms, work experience, global stage appearances and the development of dance school in Ireland.
+ 
+![about-pic](readme-images/about-pic.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![about](/readme-images/about.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Contact
+- The Contact page has a background picture of an anklet band worn during dance performance.
+- The Contact page has a form where a user can submit their details and write a query.
+- add dumbform for the form submission 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![contact](/readme-images/contact.png)
+## Footer
+- The footer is the same on all the three pages.
+- The footer has social media links.
+- To enable better user experience each social media link in the footer opens in a new tab.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![footer](/readme-images/footer.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Future Features
+- A login section could be added to allow students to access dance information.
+- Dance resources and history could be added in the resources page.
+- The gallery could be made as a separate page and it could contain video performances of students.
+- A secure payment section can be added to allow online fee payment.
+- The syllabus can be added for students for their reference.
+# Website Surface
+## Wireframes
+### Desktop
+- [Home](/readme-images/home-d.png)
+- [About](/readme-images/about-desk.png)
+- [contact](/readme-images/contact-d.png)
+### Mobile
+- [Home](/readme-images/home-m.png)
+- [About](/readme-images/about-m.png)
+- [Contact](/readme-images/contact-m.png)
+## Design Choices
+### Colour Scheme
+![color-scheme](/readme-images/colour-scheme.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![color-c-checker](/readme-images/color-c-checker.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![ccc1](/readme-images/ccc1.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Typography
+There were two fonts used in this website. [Playfair](https://fonts.google.com/specimen/Playfair+Display) font was used for body and header. [Inria Serif](https://fonts.google.com/specimen/Inria%20Serif)  font was used for the navigation menu.
+# Testing
+## Code validation
+### Html
+![Html](/readme-images/html.png)
+### Css
+![Css](/readme-images/css-validator.png)
+## Light house
+### Desktop
+![lighthouse-d](/readme-images/lighthouse-d.png)
+### Mobile 
+![lighthouse-m](/readme-images/lighthouse-m.png)
+## Responsive testing
+Responsiveness was checked using Google Chrome Dev Tools, desktop, mobile, tablet and laptop for all screen sizes with optimum resolutions.
+## Accessibility testing
+![Ally](/readme-images/ally.png)
+## Manual testing
+Manual testing was carried out in addition to automated process.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+I did a manual test to verify that the website functions well in various browsers like Safari, Google Chrome and Firefox.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+I manually tested the functions of navigation menu, header, all the three pages, pictures in the gallery, contact form submission with a response and footer links are working at optimised level.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Bug fixing
 
-------
+On Gitpod terminal, I couldn’t git commit and push my work. After a few unsuccessful attempts I reached my tutor who kindly helped me to fix conflicts in index.html and style.css by accepting current changes.
 
-## FAQ about the uptime script
+![bug.png](/readme-images/bug.png)
 
-**Why have you added this script?**
+On HTML validation I got a prompt that a section is lacking a Heading. I followed the instructions and used h1 elements to fix the issue.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![bug-2.png](/readme-images/bug-2.png)
 
-**How will this affect me?**
+# Technology Used
+- HTML5 - designs the structure and content for the website.
+- CSS3 - presents the style for the website.
+- [canva](https://www.canva.com/) - a graphic design App was used to design the art border on the home page and to edit the pictures used in the website.
+- [wix](www.wix.com) software was used to design the symbol and the texts in the logo.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- [PicResize](https://picresize.com/) tool was used to resize and crop the pictures used in this website.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- [Balsamiq](https://balsamiq.com/) was used to create wireframes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- [Google-fonts](https://fonts.google.com/) were used to select the fonts for the site.
 
-**So….?**
+- [FontAwesome](https://fontawesome.com/kits/deb0a1425e/use?welcome=yes) was used for the icons in the footer.
+Bootstrap was used to style and design the contact page.
+# Deployment
+Deployment of this website was done through GitHub pages using the following methods:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Click on the Settings tab in the GitHub repository.
+- Scroll down to the pages tab.
+- Check for the Source tab and click the Main branch.
+- Click Save.
+- After clicking Save, it can take some time to get a deployed link.
 
-**Can I opt out?**
+# Credits
+- All images in Gallery and About us page of the website were from our Dance school’s archive and I like to give credits to my students and their parents for giving me the consent to use the pictures for this website.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- I learned a lot online via a few YouTube channels, Code with Ania Kubow, Kevin Powell and Kootkot.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- I like to give credits to the Love Running project by Code Institute and it is a wonderful resource for budding developers.
+ 
+# Acknowledgement
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+I would like to extend my sincere thanks to my mentor, my tutor, cohort facilitator, our cohort members, the slack community and The Code Institute for all the support I received to design and develop the website in conjunction with Full Stack Software Developer Diploma course (e-commerce) at the Code Institute.
