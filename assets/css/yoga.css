@@ -26,7 +26,7 @@ body {
 .choice-container {
     color: black;
     width: 80%;
-    background: #ffffff;
+    background: linear-gradient(#d86098, #ffffff);
     font-size: 1rem;
     background-size: 10px;
     margin-right: auto;
@@ -40,7 +40,6 @@ body {
 .choice-container:hover {
     cursor: pointer;
     transform: scale(1.05);
-    background: linear-gradient(#d10c68, #ffffff)
 } 
 .choice-prefix {
     text-align: center;
@@ -110,7 +109,7 @@ body {
     align-items: center;
     justify-items: center;
     color: black;
-    background: linear-gradient(#d10c68, #ffffff);
+    background: linear-gradient(#d86098, #ffffff);
     box-sizing: border-box;
     border-radius: 2px;
     text-decoration: none;
@@ -125,7 +124,7 @@ body {
     justify-items: center;
    
     padding: 3px;
-    margin: 10px auto 0px auto;
+    margin: 40px auto 0px auto;
     margin-right: auto;
     margin-left: auto;
 
