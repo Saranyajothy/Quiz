@@ -347,10 +347,26 @@ body{
         font-weight: bold;
         padding: 5px;
     }
-    
+}
+
+/* For screens size 800px x 1280px*/
+@media screen and (max-width: 800px) and (max-height: 1280px) and (min-width: 800px) and (min-height: 1280px) {
+    .heading {
+        font-size: 8rem;
+        padding-top: 90px;
+    }
+     
+    .content {
+        font-size: 35px;
+        padding: 65px 0 15px 0;
+    }
+
     .btn {
-        font-size: 2rem;
-        width: 60rem;
-        padding: 8px;
+        width: 30rem;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px;
     }
 }
+
+
