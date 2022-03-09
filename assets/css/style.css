@@ -317,8 +317,8 @@ body{
 }
 
 /* media query
-/* For screens size 1600 width x 1000px height*/
-@media screen and (max-width: 1600px) and (max-height: 1000px) and (min-width: 1600px) and (min-height: 1000px) {
+/* For screens size 1600 width x 992px height*/
+@media screen and (max-width: 1600px) and (max-height: 992px) and (min-width: 1600px) and (min-height: 992px) {
     
     .heading {
         width: 50%;
