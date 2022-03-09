@@ -30,7 +30,6 @@ body{
 }
 
 .content {
-    /* font-family: 'Gideon Roman', cursive; */
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -104,7 +103,7 @@ body{
      
     .content {
         font-size: 23px;
-        padding: 55px 0 5px 0;
+        padding: 65px 0 5px 0;
     }
 
     .btn {
@@ -120,8 +119,18 @@ body{
 }
 
 /* media query
-/* For screens size from 900px wide and down */
-@media screen and (max-width: 900px) {
+/* For screens size from 1050 wide and down */
+@media screen and (max-width: 1050px) {
+     
+    .content {
+        font-size: 23px;
+        padding: 35px 0 5px 0;
+    }
+}
+
+/* media query
+/* For screens size from 980px wide and down */
+@media screen and (max-width: 980px) {
     .heading {
         width: 50%;
         font-size: 4rem;
@@ -129,8 +138,8 @@ body{
     }
 
     .content {
-        font-size: 23px;
-        padding: 45px 0 5px 0;
+        font-size: 20px;
+        padding: 30px 0 2px 0;
     }
 
     .btn {
@@ -146,8 +155,9 @@ body{
 }
 
 /* media query
-/* For screens size from 760 wide and down */
+/* For screens size from 750 wide and down */
     @media screen and (max-width: 750px) {
+        
         .heading {
             width: 50%;
             font-size: 4rem;
@@ -155,8 +165,8 @@ body{
         }
 
         .content {
-            font-size: 23px;
-            padding: 45px 0 5px 0;
+            font-size: 20px;
+            padding: 30px 0 5px 0;
         }
 
         .btn {
@@ -171,9 +181,10 @@ body{
         }
     }
  
-    /* media query
+/* media query
 /* For screens size from 560 wide and down */
 @media screen and (max-width: 560px) {
+    
     .heading {
         width: 50%;
         font-size: 4rem;
@@ -182,7 +193,7 @@ body{
 
     .content {
         font-size: 15px;
-        padding: 75px 0 5px 0;
+        padding: 35px 0 5px 0;
         font-weight: 100;
     }
 
@@ -201,6 +212,7 @@ body{
 /* media query
 /* For screens size from 370 wide and down */
 @media screen and (max-width: 370px) {
+   
     .heading {
         width: 50%;
         font-size: 4rem;
@@ -228,6 +240,7 @@ body{
  /* media query
 /* For screens size from 768px wide and 1025px height */
 @media screen and (max-width: 768px) and (max-height: 1024px) and (min-width: 768px) and (min-height: 1024px) {
+   
     .heading {
         font-size: 6rem;
         padding-top: 90px;
@@ -245,9 +258,11 @@ body{
         padding: 5px;
     }
 }
- /* media query
+
+/* media query
 /* For screens size from 770px wide and 1030px height */
 @media screen and (max-width: 770px) and (max-height: 1030px) and (min-width: 770px) and (min-height: 1030px) {
+    
     .heading {
         width: 50%;
         font-size: 4rem;
@@ -303,8 +318,8 @@ body{
 
 /* media query
 /* For screens size 1600 width x 1000px height*/
-
 @media screen and (max-width: 1600px) and (max-height: 1000px) and (min-width: 1600px) and (min-height: 1000px) {
+    
     .heading {
         width: 50%;
         font-size: 6rem;
@@ -368,5 +383,3 @@ body{
         padding: 5px;
     }
 }
-
-
