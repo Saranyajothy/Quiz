@@ -323,12 +323,12 @@ body{
     .heading {
         width: 50%;
         font-size: 6rem;
-        padding-top: 100px;
+        padding-top: 80px;
     }
      
     .content {
-        font-size: 25px;
-        padding: 65px 0 15px 0;
+        font-size: 35px;
+        padding: 85px 0 15px 0;
     }
 
     .btn {
