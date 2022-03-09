@@ -151,6 +151,32 @@ body{
        text-align: center;
     }
 }
+/* media query
+/* For screens size 1600 width  and down*/
+@media screen and (max-width: 1600px) {
+    #question {
+        font-size: 45px;
+        margin: 45px 0px 25px 0px;
+        font-weight: bold;
+    }
+    #progressText {
+        padding-top: 125px;
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    .score {
+        padding-top: 125px;
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .choice-text {
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 35px;
+    }
+}
 
 /* media query
 /* For screens size from 600 wide and down */

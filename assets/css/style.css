@@ -15,7 +15,6 @@ body{
 .heading {
     width: 50%;
     font-size: 6rem;
-    /* font-family: 'Shizuru', cursive; */
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -317,8 +316,8 @@ body{
 }
 
 /* media query
-/* For screens size 1600 width x 992px height*/
-@media screen and (max-width: 1600px) and (max-height: 992px) and (min-width: 1600px) and (min-height: 992px) {
+/* For screens size 1600 width  and down*/
+@media screen and (max-width: 1600px) {
     
     .heading {
         width: 50%;
@@ -328,7 +327,7 @@ body{
      
     .content {
         font-size: 35px;
-        padding: 85px 0 15px 0;
+        padding: 95px 0 15px 0;
     }
 
     .btn {
