@@ -63,63 +63,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - Each category has five questions with four choices. once the answer clicked it pops the next question.
 - correct answers notify by green color and wrong answers shown by red color.
 - All categories have home button that connect the main page.  
-- When an enquiry form is submitted, a confirmation message appears with a Thank you note and a link to return back to the home page.
-## Logo
-- The logo has a symbol which denotes the power of the feminine.
-- The name of the dance school is on the logo next to the symbol.
-
-## Navigation
-- The navigation, header and footer are similar for all the three pages.
-- The navigation is enabled for all screens such as desktop to mobile.
-- The navigation is placed on the top right corner.
-- When the logo is clicked from the any page, it takes to the home page.
-![header](/readme-images/header.png)
-## Home
-- The home page is aimed to give all details about the dance school.
-- The home page starts with a picture of Lord Shiva, the dancing God and a quote to give value to the dance form.
-- The home page has three sections, which presents information about the dance school, classes and gallery with colourful pictures to bring an experience for global users.
-
-- To give clear instructions about the classes offered, a table with three columns is illustrated to give precise information about level, duration of dance classes and venue with frequency of classes.
-
-![Dancing-god.png](/readme-images/Dancing-god.png)
-
-![school.png](/readme-images/school.png)
-
-![timings](/readme-images/timings.png)
-
-![gallery](/readme-images/gallery.png)
-## About us
-- A traditional dance school is valued by The Guru. Users should know about Guru’s qualification, skills, experience and various credentials.
-
-- The About us page introduces the teacher with four distinctive pictures of Guru’s dance postures involved to highlight the grace, complexity and flexibility of postures.
-
-- Below the pictures, a detailed profile is presented about the teacher to give a background, qualification and honors, versatile experience in different dance forms, work experience, global stage appearances and the development of dance school in Ireland.
- 
-![about-pic](readme-images/about-pic.png)
-
-![about](/readme-images/about.png)
-
-
-## Contact
-- The Contact page has a background picture of an anklet band worn during dance performance.
-- The Contact page has a form where a user can submit their details and write a query.
-- add dumbform for the form submission 
-
-
-![contact](/readme-images/contact.png)
-## Footer
-- The footer is the same on all the three pages.
-- The footer has social media links.
-- To enable better user experience each social media link in the footer opens in a new tab.
-
-![footer](/readme-images/footer.png)
-
-# Future Features
-- A login section could be added to allow students to access dance information.
-- Dance resources and history could be added in the resources page.
-- The gallery could be made as a separate page and it could contain video performances of students.
-- A secure payment section can be added to allow online fee payment.
-- The syllabus can be added for students for their reference.
+- 
 # Website Surface
 ## Wireframes
 ### Desktop
@@ -139,7 +83,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 ![ccc1](/readme-images/ccc1.png)
 
 ### Typography
-There were two fonts used in this website. [Playfair](https://fonts.google.com/specimen/Playfair+Display) font was used for body and header. [Inria Serif](https://fonts.google.com/specimen/Inria%20Serif)  font was used for the navigation menu.
+There were one font used in this website.[Raleway](https://fonts.google.com/specimen/Raleway?query=raleway). The raleway is an elegant sans-serif typeface familyis font is very clear and perfect for the game.
 # Testing
 ## Code validation
 ### Html
