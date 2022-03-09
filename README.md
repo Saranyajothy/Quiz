@@ -3,20 +3,13 @@ Category quiz is games site designed for users above 10 years old and there is n
 Each category has five questions and allows user to pick the correct answer from four choices. For each question, the user gets one chance to choose the correct answer and score will displayed as they progress. Each correct answer carries 10 points and there is no point or a penalty for incorrect answer. A final scored will be awarded after completing five questions for respective category.
 
 ![responsive](/readme-images/responsive.png)
-![click here to view the site]( https://saranyajothy.github.io/Quiz/)
+[click here to view the site](https://saranyajothy.github.io/Quiz/)
 # Table of contents
 - [User Experience](#user-experience)
     - [The target audience](#target-audience)
     - [User's journey](#user's-journey)
 - [Website Structure](#website-structure)
     - [Features](#features)
-    - [Logo](#logo)
-    - [Navigation](#navigation)
-    - [Home](#home)
-    - [About us](about-us)
-    - [Contact](#contact)
-    - [Footer](#footer)
-- [Future Features](#future-Features)
 - [Website Surface](#website-Surface)
     - [Wireframes](#wireframes)
     - [Design Choices](#design-Choice) 
@@ -45,8 +38,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The user will get a chance to analayis their general knowledge and memory power. 
 - The user will find the information in plain and common language.
 - The user will find four options to choose the correct answers.
-- The user will find the questions and choices are very clear to read and play.
-## 
+- The user will find the questions and choices are very clear to read and play. 
 ## The target audience
 - To engage children above 10 years old and adults with an interactive quiz in different categories
 - To create an informative and educational learning experience.
