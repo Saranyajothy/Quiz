@@ -42,7 +42,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 
 - The user needs to quickly know the purpose on the site.
 - The user should be able to spontaneously and easily navigate through the site.
-- The user will get to know their memory power and general knowledge. 
+- The user will get a chance to analayis their general knowledge and memory power. 
 - The user will find the information in plain and common language.
 - The user will find four options to choose the correct answers.
 - The user will find the questions and choices are very clear to read and play.
@@ -54,16 +54,15 @@ A user should go through the site like a purposeful journey and to ensure this,
 - To be fun and engaging.
 # Website structure
 ## Features
-- The site has a header with logo and footer.
-
-- The site has three pages which are easy to navigate.
-
-- Homepage gives information about the dance school, classes, venue and a gallery to view pictures which will enlarge when the cursor is on it.
-
-- The About us page gives detailed information and credentials about the dance teacher.
-
-- Contact page gives various options for users to contact the team.
-
+### Category quiz - main page
+- This is the main page of the website which includes the category. It is responsive and includes to begin the quiz.
+- The main page of the quiz has five categories. Each category has related to different topics.
+- The purpose of this page is to allow the user to select the quiz options easily to get to their desired destination.
+- Five categories are human body, yoga, food, countries and olympics. These categories are intesesting to play for the users.
+- Each quiz page contains question count on the left top of the screen with progressbar and score count on the right top of the page.
+- Each category has five questions with four choices. once the answer clicked it pops the next question.
+- correct answers notify by green color and wrong answers shown by red color.
+- All categories have home button that connect the main page.  
 - When an enquiry form is submitted, a confirmation message appears with a Thank you note and a link to return back to the home page.
 ## Logo
 - The logo has a symbol which denotes the power of the feminine.
@@ -74,7 +73,6 @@ A user should go through the site like a purposeful journey and to ensure this,
 - The navigation is enabled for all screens such as desktop to mobile.
 - The navigation is placed on the top right corner.
 - When the logo is clicked from the any page, it takes to the home page.
-
 ![header](/readme-images/header.png)
 ## Home
 - The home page is aimed to give all details about the dance school.
@@ -178,7 +176,6 @@ On HTML validation I got a prompt that a section is lacking a Heading. I followe
 - HTML5 - designs the structure and content for the website.
 - CSS3 - presents the style for the website.
 - [canva](https://www.canva.com/) - a graphic design App was used to design the art border on the home page and to edit the pictures used in the website.
-- [wix](www.wix.com) software was used to design the symbol and the texts in the logo.
 
 - [PicResize](https://picresize.com/) tool was used to resize and crop the pictures used in this website.
 
@@ -198,11 +195,11 @@ Deployment of this website was done through GitHub pages using the following met
 - After clicking Save, it can take some time to get a deployed link.
 
 # Credits
-- All images in Gallery and About us page of the website were from our Dance school’s archive and I like to give credits to my students and their parents for giving me the consent to use the pictures for this website.
+- All images in Gallery and About us page of the website were from our canvas.
 
-- I learned a lot online via a few YouTube channels, Code with Ania Kubow, Kevin Powell and Kootkot.
+- I learned a lot online via a few YouTube channels, Code with.
 
-- I like to give credits to the Love Running project by Code Institute and it is a wonderful resource for budding developers.
+- I like to give credits to the Love math project by Code Institute and it is a wonderful resource for budding developers.
  
 # Acknowledgement
 

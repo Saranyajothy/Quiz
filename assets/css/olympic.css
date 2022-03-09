@@ -45,7 +45,7 @@ body{
 }
 
 #question {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
     margin: 45px 0px 25px 0px;
@@ -54,7 +54,6 @@ body{
 .choice-text {
     font-size: 25px;
     text-align: center;
-    font-weight: bold;
     margin: 0%;
 }
 
