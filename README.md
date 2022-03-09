@@ -2,8 +2,8 @@
 Category quiz is games site designed for users above 10 years old and there is no higher age limit. It has five categories that allow visitors to test their knowledge in relevant topics. This is an educational and informative quiz that can be played for fun or brain storming session.
 Each category has five questions and allows user to pick the correct answer from four choices. For each question, the user gets one chance to choose the correct answer and score will displayed as they progress. Each correct answer carries 10 points and there is no point or a penalty for incorrect answer. A final scored will be awarded after completing five questions for respective category.
 
-![responsive]
-[click here to view the site]()
+![responsive](/readme-images/responsive.png)
+![click here to view the site]( https://saranyajothy.github.io/Quiz/)
 # Table of contents
 - [User Experience](#user-experience)
     - [The target audience](#target-audience)
@@ -54,7 +54,8 @@ A user should go through the site like a purposeful journey and to ensure this,
 - To be fun and engaging.
 # Website structure
 ## Features
-### Category quiz - main page
+### Category quiz
+
 - This is the main page of the website which includes the category. It is responsive and includes to begin the quiz.
 - The main page of the quiz has five categories. Each category has related to different topics.
 - The purpose of this page is to allow the user to select the quiz options easily to get to their desired destination.
