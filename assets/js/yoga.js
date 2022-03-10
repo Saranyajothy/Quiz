@@ -1,5 +1,3 @@
-// 
-
 /*jshint esversion: 6 */
 const question = document.getElementById('question');
 const scoreText = document.getElementById('score');

@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 const quizScore = document.getElementById('quizScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
