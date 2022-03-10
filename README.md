@@ -120,23 +120,21 @@ There were one font used in this website.[Raleway](https://fonts.google.com/spec
 ## Responsive testing
 Responsiveness was checked using Google Chrome Dev Tools, desktop, mobile, tablet and laptop for all screen sizes with optimum resolutions.
 ## Accessibility testing
-![Ally](/readme-images/ally.png)
+![ally-cc](/readme-images/ally-cc.png)
 ## Manual testing
 Manual testing was carried out in addition to automated process.
 
 I did a manual test to verify that the website functions well in various browsers like Safari, Google Chrome and Firefox.
 
-I manually tested the functions of navigation menu, header, all the three pages, pictures in the gallery, contact form submission with a response and footer links are working at optimised level.
+I manually tested the functions of navigation menu, header, all the five pages, pictures in the gallery, contact form submission with a response and footer links are working at optimised level.
 
 ## Bug fixing
+#### Issues
+- The final score area is not displaying on the end game page and fixed it by changing the code mistakes.
+- Shows few errors in js file anfd fixed the issues.
+![bug1](/readme-images)
 
-On Gitpod terminal, I couldn’t git commit and push my work. After a few unsuccessful attempts I reached my tutor who kindly helped me to fix conflicts in index.html and style.css by accepting current changes.
-
-![bug.png](/readme-images/bug.png)
-
-On HTML validation I got a prompt that a section is lacking a Heading. I followed the instructions and used h1 elements to fix the issue.
-
-![bug-2.png](/readme-images/bug-2.png)
+![bug2](/readme-images/bug-2.png)
 
 # Technology Used
 - HTML5 - designs the structure and content for the website.
@@ -149,7 +147,7 @@ On HTML validation I got a prompt that a section is lacking a Heading. I followe
 
 - [Google-fonts](https://fonts.google.com/) were used to select the fonts for the site.
 
-- [FontAwesome](https://fontawesome.com/kits/deb0a1425e/use?welcome=yes) was used for the icons in the footer.
+- [FontAwesome](https://fontawesome.com/kits/deb0a1425e/use?welcome=yes) was used for the icons in the end game page.
 Bootstrap was used to style and design the contact page.
 # Deployment
 Deployment of this website was done through GitHub pages using the following methods:
@@ -161,11 +159,13 @@ Deployment of this website was done through GitHub pages using the following met
 - After clicking Save, it can take some time to get a deployed link.
 
 # Credits
-- All images in Gallery and About us page of the website were from our canvas.
+- All background images of the website were from our canvas.
 
-- I learned a lot online via a few YouTube channels, Code with.
+- I learned a lot online via a few YouTube channels and code institue course materials. I got code references from the youtube channel 'Brian Design' just for javascript and code space.
 
 - I like to give credits to the Love math project by Code Institute and it is a wonderful resource for budding developers.
+
+- My sincere thanks to my classmate 'Rhiannon' and special thanks to 'kavitha' for giving ideas and suggestions.
  
 # Acknowledgement
 
