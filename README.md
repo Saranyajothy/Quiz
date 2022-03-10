@@ -86,9 +86,9 @@ A user should go through the site like a purposeful journey and to ensure this,
 ## Design Choices
 ### Colour Scheme
 ![main-cs](/readme-images/main-cs.png)
-![color-checker](/readme-images/color-checker.png)
-
-
+![collage](/readme-images/collage.jpg)
+![mainpage-cs](/readme-images/mainpage-cs.png)
+![quiz.png](/readme-images/quiz.png)
 ### Typography
 There were one font used in this website.[Raleway](https://fonts.google.com/specimen/Raleway?query=raleway). The raleway is an elegant sans-serif typeface familyis font is very clear and perfect for the game.
 # Testing
@@ -102,6 +102,8 @@ There were one font used in this website.[Raleway](https://fonts.google.com/spec
 ![lighthouse-d](/readme-images/lighthouse-d.png)
 ### Mobile 
 ![lighthouse-m](/readme-images/lighthouse-m.png)
+## Color contrast checker
+![color-checker](/readme-images/color-checker.png)
 ## Responsive testing
 Responsiveness was checked using Google Chrome Dev Tools, desktop, mobile, tablet and laptop for all screen sizes with optimum resolutions.
 ## Accessibility testing
