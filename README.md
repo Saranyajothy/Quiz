@@ -51,22 +51,38 @@ A user should go through the site like a purposeful journey and to ensure this,
 - This is the main page of the website which includes the category. It is responsive and includes to begin the quiz.
 - The main page of the quiz has five categories. Each category has related to different topics.
 - The purpose of this page is to allow the user to select the quiz options easily to get to their desired destination.
-- Five categories are human body, yoga, food, countries and olympics. These categories are intesesting to play for the users.
+- Five categories are Human body, Yoga, Food, Countries and Olympics. These categories are interesting for the users to play the quiz.
+### Main page
+![main-page](/readme-images/main-page.png)
+### 1st category - Human body
+![human-img](/readme-images/human-img.png)
+### 2nd category - Yoga
+![yoga-img](/readme-images/yoga-img.png)
+### 3rd category - Food
+![food-img](/readme-images/food-img.png)
+### 4th category - Countries
+![countries](/readme-images/countries-img.png)
+### 5th category - Olympic
+![olympic-img](/readme-images/olympic-img.png)
+### Progressbar and score
+![score](/readme-images/score.png)
 - Each quiz page contains question count on the left top of the screen with progressbar and score count on the right top of the page.
 - Each category has five questions with four choices. once the answer clicked it pops the next question.
+
 - correct answers notify by green color and wrong answers shown by red color.
+
 - All categories have home button that connect the main page.  
-- 
+- Each category has different background images to enhance the page and looks pleasing and colorful to the players eyes.
+### End game
+![endgame-img](/readme-images/endgame-img.png)
 # Website Surface
 ## Wireframes
-### Desktop
-- [Home](/readme-images/home-d.png)
-- [About](/readme-images/about-desk.png)
-- [contact](/readme-images/contact-d.png)
+### Mainpage
+- [wireframe-mp-d](/readme-images/wirframe-mp-d.png)
+- [wireframe-c-d](/readme-images/wireframe-c-d.png.png)
 ### Mobile
-- [Home](/readme-images/home-m.png)
-- [About](/readme-images/about-m.png)
-- [Contact](/readme-images/contact-m.png)
+- [wireframe-mp-m](/readme-images/wireframe-mp-m.png)
+- [wireframe-c-m](/readme-images/c-m)
 ## Design Choices
 ### Colour Scheme
 ![color-scheme](/readme-images/colour-scheme.png)
