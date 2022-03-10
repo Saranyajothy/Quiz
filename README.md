@@ -78,11 +78,11 @@ A user should go through the site like a purposeful journey and to ensure this,
 # Website Surface
 ## Wireframes
 ### Mainpage
-- [wireframe-mp-d](/readme-images/wirframe-mp-d.png)
-- [wireframe-c-d](/readme-images/wireframe-c-d.png.png)
+![wireframe-mp-d](/readme-images/wirframe-mp-d.png)
+![wireframe-c-d](/readme-images/wireframe-c-d.png.png)
 ### Mobile
-- [wireframe-mp-m](/readme-images/wireframe-mp-m.png)
-- [wireframe-c-m](/readme-images/c-m)
+![wireframe-mp-m](/readme-images/wireframe-mp-m.png)
+![wireframe-c-m](/readme-images/c-m)
 ## Design Choices
 ### Colour Scheme
 ![main-cs](/readme-images/main-cs.png)
@@ -126,15 +126,16 @@ Manual testing was carried out in addition to automated process.
 
 I did a manual test to verify that the website functions well in various browsers like Safari, Google Chrome and Firefox.
 
-I manually tested the functions of navigation menu, header, all the five pages, pictures in the gallery, contact form submission with a response and footer links are working at optimised level.
+I manually tested the functions of main page, five  categoty pages and end game page. I checked with few mobile devices for the correct alignment.
+
 
 ## Bug fixing
 #### Issues
 - The final score area is not displaying on the end game page and fixed it by changing the code mistakes.
 - Shows few errors in js file anfd fixed the issues.
-![bug1](/readme-images)
+![bug1](/readme-images/bug1.png)
 
-![bug2](/readme-images/bug-2.png)
+![bug-js](/readme-images/bug-js.png)
 
 # Technology Used
 - HTML5 - designs the structure and content for the website.
