@@ -3,7 +3,7 @@ Category quiz is games site designed for users above 10 years old and there is n
 Each category has five questions and allows user to pick the correct answer from four choices. For each question, the user gets one chance to choose the correct answer and score will displayed as they progress. Each correct answer carries 10 points and there is no point or a penalty for incorrect answer. A final scored will be awarded after completing five questions for respective category.
 
 ![responsive](/readme-images/responsive.png)
-[click here to view the site](https://saranyajothy.github.io/Quiz/)
+![click here to view the site](https://saranyajothy.github.io/Quiz/)
 # Table of contents
 - [User Experience](#user-experience)
     - [The target audience](#target-audience)
@@ -85,20 +85,18 @@ A user should go through the site like a purposeful journey and to ensure this,
 - [wireframe-c-m](/readme-images/c-m)
 ## Design Choices
 ### Colour Scheme
-![color-scheme](/readme-images/colour-scheme.png)
+![main-cs](/readme-images/main-cs.png)
+![color-checker](/readme-images/color-checker.png)
 
-![color-c-checker](/readme-images/color-c-checker.png)
-
-![ccc1](/readme-images/ccc1.png)
 
 ### Typography
 There were one font used in this website.[Raleway](https://fonts.google.com/specimen/Raleway?query=raleway). The raleway is an elegant sans-serif typeface familyis font is very clear and perfect for the game.
 # Testing
 ## Code validation
 ### Html
-![Html](/readme-images/html.png)
+
 ### Css
-![Css](/readme-images/css-validator.png)
+
 ## Light house
 ### Desktop
 ![lighthouse-d](/readme-images/lighthouse-d.png)
