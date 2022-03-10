@@ -82,7 +82,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 ![wireframe-c-d](/readme-images/wireframe-c-d.png.png)
 ### Mobile
 ![wireframe-mp-m](/readme-images/wireframe-mp-m.png)
-![wireframe-c-m](/readme-images/c-m)
+![wireframe-c-m](/readme-images/wireframe-c-m.png)
 ## Design Choices
 ### Colour Scheme
 ![main-cs](/readme-images/main-cs.png)
