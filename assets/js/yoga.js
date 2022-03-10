@@ -44,7 +44,7 @@ let questions = [{
         answer: 4,
     },
     {
-        question: "What is the true meaning of yoga",
+        question: "What is the true meaning of yoga?",
         choice1: "Spiritual union",
         choice2: "Attaining freedom",
         choice3: "Physical health",
