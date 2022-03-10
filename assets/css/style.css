@@ -207,7 +207,16 @@ body{
         margin-top: 5px;
     }
 }
+/* media query
+/* For screens size from 560 wide and down */
+@media screen and (max-width: 560px) {
+    .content {
+        font-size: 15px;
+        padding: 55px 0 5px 0;
+        font-weight: 100;
+    }
 
+}
 /* media query
 /* For screens size from 370 wide and down */
 @media screen and (max-width: 370px) {
@@ -390,7 +399,7 @@ body{
     .heading {
         width: 60%;
         font-size: 2rem;
-        padding-top: 60px;
+        padding-top: 70px;
     }
 
     .content {
