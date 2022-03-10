@@ -166,7 +166,7 @@ Deployment of this website was done through GitHub pages using the following met
 
 - I like to give credits to the Love math project by Code Institute and it is a wonderful resource for budding developers.
 
-- My sincere thanks to my classmate 'Rhiannon' and special thanks to 'kavitha' for giving ideas and suggestions.
+- My sincere thanks to my classmate 'Rhiannon' and special thanks to 'kavitha' for helping me in critical situation1.
  
 # Acknowledgement
 
