@@ -12,46 +12,48 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [{
-        question: "Where in the body does most of digestion take place?",
-        choice1: "Small Intestine",
-        choice2: "Stomach",
-        choice3: "Mouth",
-        choice4: "Large Intestine",
-        answer: 1,
-    },
-    {
-        question: "Where in the body are new blood cells made?",
-        choice1: "Liver",
-        choice2: "Brain",
-        choice3: "Bone marrow",
-        choice4: "Heart",
-        answer: 3,
-    },
-    {
-        question: "Which type of joint is your thumb joint?",
-        choice1: "Hinge",
-        choice2: "Saddle",
-        choice3: "Glide",
-        choice4: "Ball and socket",
+        question: "Which country gifted the 'statue of liberty' to USA in 1886?",
+        choice1: "Brazil",
+        choice2: "France",
+        choice3: "England",
+        choice4: "Canada",
         answer: 2,
     },
     {
-        question: "What is the heaviest organ in the human body?",
-        choice1: "Kidney",
-        choice2: "Brain",
-        choice3: "Liver",
-        choice4: "Skin",
+        question: "Which country is known as the 'Land of Rising Sun'?",
+        choice1: "Japan",
+        choice2: "New Zealand",
+        choice3: "Fiji",
+        choice4: "China",
+        answer: 1,
+    },
+
+    {
+        question: "What plateau is known as the 'Roof of the World?",
+        choice1: "Andes",
+        choice2: "Himalayas",
+        choice3: "Karakoram",
+        choice4: "Pamir",
         answer: 4,
     },
     {
-        question: "What is the longest bone in the Human body?",
-        choice1: "Thigh bone",
-        choice2: "Collarbone",
-        choice3: "Spine",
-        choice4: "Shinbone",
-        answer: 1,
+        question: "In which country is known as the 'Playground of Europe?",
+        choice1: "Austria",
+        choice2: "Holland",
+        choice3: "Switerland",
+        choice4: "Italy",
+        answer: 3,
+    },
+    {
+        question: "The world longest road without any corners is located in?",
+        choice1: "USA",
+        choice2: "Australia",
+        choice3: "Saudi Arabia",
+        choice4: "China",
+        answer: 3,
     },
 ];
+
 // questions and score
 const SCORE_BONUS = 10;
 const MAXIMUM_QUESTIONS = 5;
