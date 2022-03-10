@@ -94,12 +94,25 @@ There were one font used in this website.[Raleway](https://fonts.google.com/spec
 # Testing
 ## Code validation
 ### Html
-
+#### Main page
+![index-html](/readme-images/index-html.png)
+#### category page
+![category-html](/readme-images/category-html.png)
+#### End page
+![endgame-html](/readme-images/endgame-html.png)
 ### Css
-
+#### Main page
+![style-css](/readme-images/style-css.png)
+#### category page
+![category-css](/readme-images/category-css.png)
+#### End page
+![end-game-css](/readme-images/end-game-css.png)
+### javascript
+![js-valid](/readme-images/js-valid.png)
+![js-valid-1](/readme-images/js-valid-1.png)
 ## Light house
 ### Desktop
-![lighthouse-d](/readme-images/lighthouse-d.png)
+![lighthouse-d](/readme-images/)
 ### Mobile 
 ![lighthouse-m](/readme-images/lighthouse-m.png)
 ## Color contrast checker
