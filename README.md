@@ -79,7 +79,7 @@ A user should go through the site like a purposeful journey and to ensure this,
 ## Wireframes
 ### Mainpage
 ![wireframe-mp-d](/readme-images/wirframe-mp-d.png)
-![wireframe-c-d](/readme-images/wireframe-c-d.png.png)
+![wireframe-c-d](/readme-images/wireframe-c-d.png)
 ### Mobile
 ![wireframe-mp-m](/readme-images/wireframe-mp-m.png)
 ![wireframe-c-m](/readme-images/wireframe-c-m.png)
