@@ -3,7 +3,7 @@ Category quiz is games site designed for users above 10 years old and there is n
 Each category has five questions and allows user to pick the correct answer from four choices. For each question, the user gets one chance to choose the correct answer and score will displayed as they progress. Each correct answer carries 10 points and there is no point or a penalty for incorrect answer. A final scored will be awarded after completing five questions for respective category.
 
 ![responsive](/readme-images/responsive.png)
-![click here to view the site](https://saranyajothy.github.io/Quiz/)
+[click here to view the site](https://saranyajothy.github.io/Quiz/)
 # Table of contents
 - [User Experience](#user-experience)
     - [The target audience](#target-audience)
@@ -112,7 +112,7 @@ There were one font used in this website.[Raleway](https://fonts.google.com/spec
 ![js-valid-1](/readme-images/js-valid-1.png)
 ## Light house
 ### Desktop
-![lighthouse-d](/readme-images/)
+![lighthouse-d](/readme-images/lighthouse-d.png)
 ### Mobile 
 ![lighthouse-m](/readme-images/lighthouse-m.png)
 ## Color contrast checker
